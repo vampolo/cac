@@ -1,11 +1,15 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:tal="http://xml.zope.org/namespaces/tal" 
+	xmlns:metal="http://xml.zope.org/namespaces/metal"
+	dir="ltr" lang="en-US" xml:lang="en-US">
+<metal:html define-macro="main">
 <head> 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/> 
  
 <!-- Website Title --> 
-<title>Maxi | Home</title>
+<title>Centro Acustico Certosa</title>
 
 <!-- Meta data for SEO -->
 <meta name="description" content=""/>
@@ -37,31 +41,29 @@
 <script type="text/javascript" src="${request.static_url('cac:static/js/custom.js')}"></script>
 
 </head>
-<body>
+<body class="${'caption' if request.view_name else ''}">
 	
 	<!-- Begin template wrapper -->
 	<div id="wrapper">
 			
 		<!-- Begin header -->
-		<div id="header_wrapper">
+		<div id="${'header_wrapper_caption' if request.view_name else 'header_wrapper'}">
 			<div id="top_bar">
 				<div class="wrapper">
 					<div id="logo">
-						<a href="index.html">
-							<img src="images/logo.png" alt=""/>
-						</a>
+						Centro Acustico Certosa
 					</div>
 					
 					<!-- Begin main nav -->
 					<ul class="nav">
 						<li>
-							<a href="index.html" class="active">
+							<a href="${request.application_url}" class="${'active' if not request.view_name else ''}">
 								Home
 							</a>
 						</li>
 						<li>
 							<a href="portfolio.html">
-								Portfolio
+								Informazioni sul nostro udito
 							</a>
 							<div class="popup">
 								<div class="top"></div>
@@ -69,17 +71,27 @@
 									<ul class="submenu">
 										<li>
 											<a href="portfolio_default.html">
-												Portfolio Default
+												Come funziona l'udito
 											</a>
 										</li>
 										<li>
 											<a href="portfolio_with_slider.html">
-												Portfolio + Slider
+												Ipoacussia
 											</a>
 										</li>
 										<li>
 											<a href="portfolio_one_column.html">
-												Portfolio 1 Column
+												Aiuto dei familiari
+											</a>
+										</li>
+										<li>
+											<a href="portfolio_one_column.html">
+												Il nostro aiuto
+											</a>
+										</li>
+										<li>
+											<a href="portfolio_one_column.html">
+												Test dell'udito online
 											</a>
 										</li>
 									</ul>
@@ -90,7 +102,7 @@
 						</li>
 						<li>
 							<a href="pages.html">
-								Pages
+								Apparecchi acustici
 							</a>
 							<div class="popup">
 								<div class="top"></div>
@@ -98,17 +110,7 @@
 									<ul class="submenu">
 										<li>
 											<a href="full_width.html">
-												Full width
-											</a>
-										</li>
-										<li>
-											<a href="right_side_bar.html">
-												Right side bar
-											</a>
-										</li>
-										<li>
-											<a href="typography.html">
-												Typography
+												Boh
 											</a>
 										</li>
 									</ul>
@@ -118,86 +120,12 @@
 							</div>
 						</li>
 						<li>
-							<a href="skins.html">
-								Skins
-							</a>
-							<div class="popup">
-								<div class="top"></div>
-								<div class="content">
-									<ul id="nav_skin" class="submenu">
-										<li>
-											<a href="#bokeh">
-												Bokeh
-											</a>
-										</li>
-										<li>
-											<a href="#bokeh2">
-												Bokeh2
-											</a>
-										</li>
-										<li>
-											<a href="#space">
-												Space
-											</a>
-										</li>
-										<li>
-											<a href="#wood">
-												Wood
-											</a>
-										</li>
-										<li>
-											<a href="#dark_wood">
-												Dark Wood
-											</a>
-										</li>
-										<li>
-											<a href="#blue">
-												Shiny Blue
-											</a>
-										</li>
-										<li>
-											<a href="#red">
-												Shiny Red
-											</a>
-										</li>
-										<li>
-											<a href="#pink">
-												Shiny Pink
-											</a>
-										</li>
-										<li>
-											<a href="#green">
-												Shiny Green
-											</a>
-										</li>
-										<li>
-											<a href="#purple">
-												Shiny Purple
-											</a>
-										</li>
-										<li>
-											<a href="#black">
-												Plain
-											</a>
-										</li>
-									</ul>
-									<br class="clear"/>
-								</div>
-								<div class="footer"></div>
-							</div>
-						</li>
-						<li>
-							<a href="blog.html">
-								Blog
-							</a>
-						</li>
-						<li>
-							<a href="about.html">
+							<a href="${request.application_url}/about" class="${'active' if request.view_name == 'about' else ''}">
 								About us
 							</a>
 						</li>
 						<li>
-							<a href="contact.html">
+							<a href="${request.application_url}/contact" class="${'active' if request.view_name == 'contact' else ''}">
 								Contact
 							</a>
 						</li>
@@ -205,89 +133,85 @@
 					<!-- End main nav -->
 					
 					<br class="clear"/>
-					
+					<metal:html define-slot="slider">
 					<!-- Begin content slider -->
 					<div id="content_slider" class="content_slider">
 					
 					
 						<!-- Begin slider content 1 -->
 						<div id="slide1" class="active_slide">
-							<div class="macbook">
-								<a href="#youtube_video" class="portfolio_youtube">
-									<img src="example/chrome_screen.png" alt=""/>
+							<div class="plain">
+								<a href="${request.static_url('cac:static/cac_imgs/001.jpg')}" class="portfolio_image">
+									<img src="${request.static_url('cac:static/cac_imgs/001.jpg')}" width="320px" alt=""/>
 								</a>
 							</div>
 							
 							<div class="content">
-								<h1>Content + Video preview</h1>
+								<h1>Personale affidabile</h1>
 								<br/>
 								<p>
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur, nib amet, consectetur adipiscing elit Lorem.
-								</p>
-								<p style="margin-top:25px">
-									<input type="button" class="silver" value="Buy this theme"/>
+									Il nostro personale, sempre al vostro servizio, vi aiuterà in maniera ottimale al fine di soddisfare le vostre personali esigenze.
 								</p>
 							</div>
-							
-							<!-- Begin youtube video content -->
-							<div style="display:none;">
-				   				<div id="youtube_video" style="width:640px;height:385px">
-				        
-				        			<object type="application/x-shockwave-flash" data="http://www.youtube.com/v/RrDHrwLUtvk" style="width:640px;height:385px">
-        		    					<param name="movie" value="http://www.youtube.com/v/RrDHrwLUtvk" />
-    			    				</object>
-				        
-				    			</div>	
-							</div>
-							<!-- End youtube video content -->
 						</div>
 						<!-- End slider content 1 -->
 						
 						<!-- Begin slider content 2 -->
 						<div id="slide2" style="display:none">
-							<div class="macbook right">
-								<a href="example/fulladmin_zoom.png" class="portfolio_image">
-									<img src="example/fulladmin_screen.png" alt=""/>
+							<div class="plain right">
+								<a href="${request.static_url('cac:static/cac_imgs/022.jpg')}" class="portfolio_image">
+									<img src="${request.static_url('cac:static/cac_imgs/022.jpg')}" width="320px" alt=""/>
 								</a>
 							</div>
 							
 							<div class="content left">
-								<h1>Content left + Image preview</h1>
+								<h1>Tecnici specializzati</h1>
 								<br/>
 								<p>
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur, nib amet, consectetur adipiscing elit Lorem.
+									I nostri tecnici tecnici si differenziano per professionalità, competenza e soprattutto per la cura alla cosa più importante: il paziente.
 								</p>
 							</div>
 						</div>
 						<!-- End slider content 2 -->
 						
-						<!-- Begin slider content 3 -->
+						<!-- Begin slider content 1 -->
 						<div id="slide3" style="display:none">
-							<div class="content_slider_frame">
-								<img src="example/full_image_slider.png" alt="" class="image"/>
+							<div class="plain">
+								<a href="${request.static_url('cac:static/cac_imgs/017.jpg')}" class="portfolio_image">
+									<img src="${request.static_url('cac:static/cac_imgs/017.jpg')}" width="320px" alt=""/>
+								</a>
 							</div>
-						</div>
-						<!-- End slider content 3 -->
-						
-						
-						<!-- Begin slider content 4 -->
-						<div id="slide4" style="display:none">
-							<div class="content_full">
-								<h1>Full Content slide, list or image</h1>
+							
+							<div class="content">
+								<h1>Macchinari all'avanguardia</h1>
 								<br/>
 								<p>
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur, nib amet, consectetur adipiscing elit Lorem.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur, nib amet, consectetur adipiscing elit Lorem.
+									Disponiamo di macchinari di ultima generazione non invasivi ed indolori.
+									I nostri apparecchi intrauricolari sono di dimensioni talmente ridotte che sono praticamente invisibili.
 								</p>
-								<br/><br/>
-								<ul class="global">
-									<li>Curabitur eu sapien eget tortor blandit pretium auctor ac metus.</li>
-									<li>Etiam quis est non velit facilisis auctor.</li>
-									<li>Vivamus adipiscing auctor quam, at aliquet diam viverra sed.</li>
-								</ul>
 							</div>
 						</div>
-						<!-- End slider content 4 -->
+						<!-- End slider content 1 -->
 						
+						<!-- Begin slider content 2 -->
+						<div id="slide4" style="display:none">
+							<div class="plain right">
+								<a href="${request.static_url('cac:static/cac_imgs/015.jpg')}" class="portfolio_image">
+									<img src="${request.static_url('cac:static/cac_imgs/015.jpg')}" width="320px" alt=""/>
+								</a>
+							</div>
+							
+							<div class="content left">
+								<h1>Supporto</h1>
+								<br/>
+								<p>
+									Perchè scegliere noi? Semplice! Per il supporto e la cura al paziente che offriamo.
+									I nostri ambienti sono progettati per farvi sentire a vostro agio in qualsiasi momento.
+									Il nostro supporto tempestivo risolverà i vostri problemi anche in caso di emergenza.
+								</p>
+							</div>
+						</div>
+						<!-- End slider content 2 -->
 					</div>
 					<!-- End content slider -->
 					
@@ -297,6 +221,7 @@
 						<a href="#slide3" class="nivo-control">2</a>
 						<a href="#slide4" class="nivo-control">3</a>
 					</div>
+					</metal:html>
 				</div>
 			</div>
 		</div>
@@ -305,88 +230,30 @@
 		<br class="clear"/>
 		
 		<!-- Begin content -->
-		<div id="content_wrapper">
+		<div id="${'content_wrapper_caption' if request.view_name else 'content_wrapper'}">
 			<div class="inner">
-				
-				<!-- Begin three column content -->
-				<div class="three_column">
-				
-					<div class="wrapper">
-						
-						<div class="each">
-							<h2>
-								<img src="images/icon_skins.png" alt="" class="mid_align"/>
-								Multiple Skins
-							</h2>
-							<div class="line"></div>
-							<p>
-								Lorem ipsum dolor sit amet, consectetur 
-								adipiscing elit. Donec consectetur, nib amet, 
-								consectetur adipiscing elit Lorem ipsum 
-								dolor adipiscing elit.. 
-							</p>
-						</div>
-						
-						<div class="each">
-							<h2>
-								<img src="images/icon_layouts.png" alt="" class="mid_align"/>
-								Layouts
-							</h2>
-							<div class="line"></div>
-							<p>
-								Lorem ipsum dolor sit amet, consectetur 
-								adipiscing elit. Donec consectetur, nib amet, 
-								consectetur adipiscing elit Lorem ipsum 
-								dolor adipiscing elit.. 
-							</p>
-						</div>
-						
-						<div class="each">
-							<h2>
-								<img src="images/icon_browsers.png" alt="" class="mid_align"/>
-								All Browsers
-							</h2>
-							<div class="line"></div>
-							<p>
-								Lorem ipsum dolor sit amet, consectetur 
-								adipiscing elit. Donec consectetur, nib amet, 
-								consectetur adipiscing elit Lorem ipsum 
-								dolor adipiscing elit.. 
-							</p>
-						</div>
-						<br class="clear"/>
-						
-					</div>
-					
-				</div>
-				<!-- End three column content -->
-				
-				<br class="clear"/>
-				
+				<metal:content define-slot="content">
 				<!-- Begin two column content -->
 				<div class="two_column">
 				
 					<div class="main">
-						<h4>What we do?</h4>
+						<h4>Presentazione</h4>
 						
 						<div class="post_wrapper">
 							<div class="frame">
-								<a href="blog_post.html">
-									<img src="example/post1.png" alt=""/>
+								<a href="${request.static_url('cac:static/cac_imgs/025.jpg')}" class="portfolio_image">
+									<img src="${request.static_url('cac:static/cac_imgs/025.jpg')}" width="320px" alt=""/>
 								</a>
 							</div>
 							<br/>
 							<p>
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
-								labolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dosectetur adipisicing elit, 
-								sed do.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-								incididunt ut labolore magna aliqua. Ut enim ad minim veniam.
+								Il Centro Acustico Certosa inizia la sua attività nel 2001, È iscritto all'ANA (Associazione Nazionale Audioprotesisti) ed è convenzionato con ASL - INAIL. Ciò che caratterizza l'attività del Centro Acustico Certosa è il rapporto umano che si instaura tra cliente ed audioprotesista, rapporto spesso trascurato nella maggior parte delle attività commerciali: non più solo clienti ma clienti soddisfatti. È questo l'obiettivo che ancora oggi caratterizza l'attività: raggiungere la soddisfazione completa del paziente, tenendo conto di ogni minimo aspetto dell'applicazione di un apparecchio acustico come: l'ambiente in cui il paziente vive, il suo stile di vita, l'ambiente lavorativo, le sue esigenze di ascolto e quelle estetiche e, perché no, l'aspetto economico.
 							</p>
 						</div>
 						
 						<br/><br/>
 						
-						<h4>Testimonials</h4><br/>
+						<h4>Cosa dicono di noi</h4><br/>
 						
 						<div class="testimonials">
 							<p id="testimonial1" style="display:block">
@@ -449,42 +316,34 @@
 					<div class="side_bar">
 						<div class="content" style="margin-top:40px">
 							<h4>
-								Recent Posts
+								In evidenza
 							</h4>
-							New and interesting story.
 							
 							<ul class="posts">
 								<li>
-									<img src="example/thumb1.jpg" alt=""/>
-									<a href="blog_post.html">
-										Fonsectetur adipisicing
+									<img src="${request.static_url('cac:static/cac_imgs/test_udito.jpg')}" width="85px" alt=""/>
+									<a href="test_udito">
+										Test udito online
 									</a><br/>
-									Ut enim ad minim veniam. Lorem ipsum dosectetur...
+									Rispondendo a delle semplici domande potrai capire
+									se hai problemi d'udito o meno...
 								</li>
 								<li>
-									<img src="example/thumb2.jpg" alt=""/>
+									<img src="${request.static_url('cac:static/cac_imgs/test_udito_sede.jpg')}" width="85px" alt=""/>
 									<a href="blog_post.html">
-										Fonsectetur adipisicing
+										Test udito in sede gratuito
 									</a><br/>
-									Ut enim ad minim veniam. Lorem ipsum dosectetur...
-								</li>
-								<li>
-									<img src="example/thumb3.jpg" alt=""/>
-									<a href="blog_post.html">
-										Fonsectetur adipisicing
-									</a><br/>
-									Ut enim ad minim veniam. Lorem ipsum dosectetur...
+									Prenota una visita
+									gratuita del test dell'udito completamente indolore e 
+									non invasiva.
 								</li>
 							</ul>
-							<br/>
-							<p>
-								<input type="button" value="Read more" onclick="location.href='blog.html'"/>
-							</p>
 						</div>
 					</div>
 					
 				</div>
 				<!-- End two column content -->
+				</metal:content>
 				
 			</div>
 		</div>
@@ -501,92 +360,11 @@
 					<h5>About us</h5>
 					<br/>
 					<p>
-						Nulla iaculis sapien at dolor elementum volutpat. 
-						Quisque et nisi vel enim consequat ultrices. 
-						Donec et dolor nec justo malesuada pharetra. 
-						Nam sollicitudin tortor.
+						Informazioni su centro acustico certosa
 					</p>
 					<br/>
-					<ul class="social_media">
-						<li>
-							<a href="">
-								<img src="images/icon_twitter2.png" alt=""/>
-							</a>
-						</li>
-						<li>
-							<a href="">
-								<img src="images/icon_facebook.png" alt=""/>
-							</a>
-						</li>
-						<li>
-							<a href="">
-								<img src="images/icon_flickr.png" alt=""/>
-							</a>
-						</li>
-						<li>
-							<a href="">
-								<img src="images/icon_rss.png" alt=""/>
-							</a>
-						</li>
-					</ul>
 				</div>
-				
-				<div>
-					<h5>Recent</h5>
-					<ul class="list">
-						<li>
-							<a href="">Nulla iaculis sapien at</a>
-						</li>
-						<li>
-							<a href="">Dolor elementum </a>
-						</li>
-						<li>
-							<a href="">Quisque et nisi vel</a>
-						</li>
-						<li>
-							<a href="">Enim consequat ultrices</a>
-						</li>
-						<li>
-							<a href="">Donec et dolor nec</a>
-						</li>
-					</ul>
-				</div>
-				
-				<div>
-					<h5>Categories</h5>
-					<ul class="list">
-						<li>
-							<a href="">Nulla iaculis sapien at</a>
-						</li>
-						<li>
-							<a href="">Dolor elementum </a>
-						</li>
-						<li>
-							<a href="">Quisque et nisi vel</a>
-						</li>
-					</ul>
-				</div>
-				
-				<div>
-					<h5>Archives</h5>
-					<ul class="list">
-						<li>
-							<a href="">April 2010</a>
-						</li>
-						<li>
-							<a href="">May 2010</a>
-						</li>
-						<li>
-							<a href="">June 2010</a>
-						</li>
-						<li>
-							<a href="">July 2010</a>
-						</li>
-					</ul>
-				</div>
-				
 				<br class="clear"/>
-				
 			</div>
 			
 		</div>
@@ -596,4 +374,5 @@
 	<!-- End template wrapper -->
 	
 </body>
+</metal:html>
 </html>

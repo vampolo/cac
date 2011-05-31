@@ -205,7 +205,7 @@ $(document).ready(function(){
 
      	}
      	 
-    }, 3000);
+    }, 7000);
 	$('#slide_nav a').click(function(){
 		var slideTarget = $(this).attr('href');
 		

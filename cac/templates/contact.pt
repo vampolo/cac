@@ -1,0 +1,71 @@
+<metal:html use-macro="base.macros['main']">
+     <metal:content fill-slot="content">
+		<!-- Begin two column content -->
+				<div class="two_column">
+				
+					<div class="main">
+						
+						<h4>Send us a message</h4>
+						<br/>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+						</p>
+						<br/>
+						<form id="contact_form" method="post" action="mailer.php">
+							<p style="margin-top:20px">
+								<label for="your_name">Name</label><br/>
+								<input id="your_name" name="your_name" type="text" style="width:90%"/>
+							</p>
+							<p style="margin-top:20px">
+								<label for="email">Email</label><br/>
+								<input id="email" name="email" type="text" style="width:90%"/>
+							</p>
+							<p style="margin-top:20px">
+								<label for="message">Message</label><br/>
+								<textarea id="message" name="message" style="width:90%" rows="3" cols="5"></textarea>
+							</p>
+							<br/><br/>
+							<p style="margin-top:20px">
+								<input type="submit" value="Send Message"/>
+							</p>
+						</form>
+						<div id="reponse_msg"></div>
+						
+					</div>
+					
+					<div class="side_bar">
+						<div class="content" style="margin-top:40px">
+							<h4>
+								Maxi Inc.
+							</h4>
+							456 Siam Center, Phayathai Rd., Bangkok Thailand
+							
+							<br/><br/>
+							<p>
+							    <strong>phone:</strong> (66) 111-222-3333<br/>
+							    <strong>email:</strong> <a href="mailto:yourname@slideo.com">yourname@slideo.com</a>
+							</p>
+							<br/><br/>
+							<h4>New York</h4>
+							<p>
+								<strong>phone:</strong> (66) 111-222-3333<br/>
+							    <strong>email:</strong> <a href="mailto:yourname@slideo.com">yourname@slideo.com</a>
+							</p>
+							<br/><br/>
+							<h4>London</h4>
+							<p>
+								<strong>phone:</strong> (66) 111-222-3333<br/>
+							    <strong>email:</strong> <a href="mailto:yourname@slideo.com">yourname@slideo.com</a>
+							</p>
+						</div>
+					</div>
+					
+				</div>
+				<!-- End two column content -->
+     </metal:content>
+     <metal:slider fill-slot="slider">
+		 <div class="caption"> 
+			<h1>Contact</h1> 
+		</div> 
+     </metal:slider>
+</metal:html>

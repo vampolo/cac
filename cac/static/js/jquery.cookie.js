@@ -94,15 +94,3 @@ jQuery.cookie = function(name, value, options) {
         return cookieValue;
     }
 };
-
-// Setup skin for Maxi template
-var maxiSkin = $.cookie("skin");
-
-if(maxiSkin != null)
-{
-	$('link[id=link_skin]').attr('href', 'css/skins/'+maxiSkin+'.css');
-}
-else
-{
-	$.cookie("skin", "pink");
-}

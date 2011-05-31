@@ -152,9 +152,11 @@ img.mid_align
 
 #logo
 {
-	width: 200px;
+	width: 250px;
 	float: left;
 	margin: 13px 0 0 30px;
+	color: white;
+	font-size:22px;
 }
 
 .nav
@@ -206,6 +208,17 @@ img.mid_align
 	margin: 10px 0 0 24px;
 }
 
+.content_slider .plain
+{
+	float: left;
+	width: 320px;
+	height: 240px;
+	position: relative;
+	top: 40px;
+	left: 60px;
+	margin-right:191px;
+}
+
 .content_slider .macbook
 {
 	float: left;
@@ -216,14 +229,16 @@ img.mid_align
 	background: transparent url('../images/bg_macbook.png') no-repeat;
 }
 
-.content_slider .macbook.right
+.content_slider .macbook.right, .content_slider .plain.right
 {
 	float: right;
 }
 
-.content_slider .macbook img
+.content_slider .macbook img, .content_slider .plain img
 {
-	margin: 16px 0 0 78px;
+	border: 5px solid white;
+	border-radius: 5px;
+	box-shadow: 2px 2px 3px #666;
 }
 
 .content_slider .content
@@ -429,14 +444,19 @@ img.mid_align
 .frame
 {
 	width: 528px;
-	height: 157px;
-	background: transparent url('../images/bg_frame.png') no-repeat left;
 }
 
 .frame img
 {
-	margin: 11px 0 0 14px;
+	margin: 11px 0 0 110px;
+	padding:5px;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #eee;
+	border-bottom: 1px solid #ccc;
+	border-top: 1px solid #eee;
+	box-shadow: 5px 5px 5px #ccc;
 }
+
 
 #footer
 {

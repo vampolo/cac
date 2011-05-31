@@ -1,0 +1,119 @@
+<metal:html use-macro="base.macros['main']">
+     <metal:content fill-slot="content">
+		<!-- Begin two column content -->
+				<div class="two_column">
+				
+					<div class="main">
+						<h4>Presentazione</h4>
+						
+						<div class="post_wrapper">
+							<div class="frame">
+								<a href="${request.static_url('cac:static/cac_imgs/025.jpg')}" class="portfolio_image">
+									<img src="${request.static_url('cac:static/cac_imgs/025.jpg')}" width="320px" alt=""/>
+								</a>
+							</div>
+							<br/>
+							<p>
+								Il Centro Acustico Certosa inizia la sua attività nel 2001, È iscritto all'ANA (Associazione Nazionale Audioprotesisti) ed è convenzionato con ASL - INAIL. Ciò che caratterizza l'attività del Centro Acustico Certosa è il rapporto umano che si instaura tra cliente ed audioprotesista, rapporto spesso trascurato nella maggior parte delle attività commerciali: non più solo clienti ma clienti soddisfatti. È questo l'obiettivo che ancora oggi caratterizza l'attività: raggiungere la soddisfazione completa del paziente, tenendo conto di ogni minimo aspetto dell'applicazione di un apparecchio acustico come: l'ambiente in cui il paziente vive, il suo stile di vita, l'ambiente lavorativo, le sue esigenze di ascolto e quelle estetiche e, perché no, l'aspetto economico.
+							</p>
+						</div>
+						
+						<br/><br/>
+						
+						<h4>Cosa dicono di noi</h4><br/>
+						
+						<div class="testimonials">
+							<p id="testimonial1" style="display:block">
+								<strong>This is awesome!</strong><br/>
+								labolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dosectetur adipisicing elit, sed do.Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+								<br/><br/>
+								<strong><a href="">John Doe, CEO</a></strong>
+							</p>
+							<p id="testimonial2">
+								<strong>Nice template!</strong><br/>
+								labolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dosectetur adipisicing elit, sed do.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut enim ad minim veniam. labolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dosectetur adipisicing elit, sed do.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut enim ad minim veniam
+								<br/><br/>
+								<strong><a href="">John Doe, CEO</a></strong>
+							</p>
+							<p id="testimonial3">
+								<strong>This is awesome!</strong><br/>
+								labolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dosectetur adipisicing elit, sed do.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dosectetur adipisicing elit, sed do enim ad minim veniam.
+								<br/><br/>
+								<strong><a href="">John Doe, CEO</a></strong>
+							</p>
+							<p id="testimonial4">
+								<strong>Nice template!</strong><br/>
+								labolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dosectetur adipisicing elit, sed do.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dosectetur adipisicing elit, sed do enim ad minim veniam. Lorem ipsum dosectetur adipisicing elit, sed do enim ad minim veniam.
+								<br/><br/>
+								<strong><a href="">John Doe, CEO</a></strong>
+							</p>
+						</div>
+						
+						<br class="clear"/>
+						
+						<div id="testimonials_triangle" class="testimonials_triangle"></div>
+						
+						<div class="testimonials_owner">
+							<ul>
+								<li>
+									<a href="#testimonial1">
+										<img src="example/avatar1.jpg" alt=""/>
+									</a>
+								</li>
+								<li>
+									<a href="#testimonial2">
+										<img src="example/avatar2.jpg" alt=""/>
+									</a>
+								</li>
+								<li>
+									<a href="#testimonial3">
+										<img src="example/avatar3.jpg" alt=""/>
+									</a>
+								</li>
+								<li>
+									<a href="#testimonial4">
+										<img src="example/avatar4.jpg" alt=""/>
+									</a>
+								</li>
+							</ul>
+						</div>
+						
+					</div>
+					
+					<div class="side_bar">
+						<div class="content" style="margin-top:40px">
+							<h4>
+								In evidenza
+							</h4>
+							
+							<ul class="posts">
+								<li>
+									<img src="${request.static_url('cac:static/cac_imgs/test_udito.jpg')}" width="85px" alt=""/>
+									<a href="test_udito">
+										Test udito online
+									</a><br/>
+									Rispondendo a delle semplici domande potrai capire
+									se hai problemi d'udito o meno...
+								</li>
+								<li>
+									<img src="${request.static_url('cac:static/cac_imgs/test_udito_sede.jpg')}" width="85px" alt=""/>
+									<a href="blog_post.html">
+										Test udito in sede gratuito
+									</a><br/>
+									Prenota una visita
+									gratuita del test dell'udito completamente indolore e 
+									non invasiva.
+								</li>
+							</ul>
+						</div>
+					</div>
+					
+				</div>
+				<!-- End two column content -->
+     </metal:content>
+     <metal:slider fill-slot="slider">
+		 <div class="caption"> 
+			<h1>About us</h1> 
+		</div> 
+     </metal:slider>
+</metal:html>
