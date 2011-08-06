@@ -1,0 +1,106 @@
+<metal:html use-macro="base.macros['main']">
+     <metal:content fill-slot="content">
+	<!-- Begin two column content -->
+				<div class="two_column">
+				
+					<div class="main">
+						<h4>Informazioni</h4>
+						
+						<div class="post_wrapper">
+							<!--
+							<div class="frame">
+								<a href="${request.static_url('cac:static/cac_imgs/disegno_udito.jpg')}" class="portfolio_image">
+									<img src="${request.static_url('cac:static/cac_imgs/disegno_udito.jpg')}" width="320px" alt=""/>
+								</a>
+							</div>
+							-->
+							<br/>
+							<p>
+								IPOACUSIA
+L’orecchio di un soggetto giovane è in grado di udire suoni di frequenza compresa tra i 20 e i 20.000 Hz e di intensità superiore ai 10-20 dB. Nelle prove audiometriche la soglia di udibilità viene ricercata tra i 125 e i 8000 Hz (frequenze del campo tonale) per un’intensità compresa tra i -10 e i 120 dB. Si definisce        normo-acusico un soggetto che è in grado di percepire suoni di intensità pari o minore ai 20-25 dB per tutte le frequenze del campo tonale. L’ipoacusia può quindi essere definita come un deficit uditivo in cui il soggetto non è in grado di percepire suoni di intensità superiore ai 25 dB per alcune o tutte (pantonale) le frequenze del campo tonale.
+CLASSIFICAZIONE
+In base alla sede del danno che ha portato ad ipoacusia può essere classificata come
+Ipoacusia trasmissiva: il danno è avvenuto a livello dell’orecchio esterno o a livello delle strutture trasmissive dell’orecchio medio (catena ossiculare). Il deficit è solitamente pantonale, benché sia solitamente più accentuato per le frequenze medio-gravi. Raramente il deficit di tipo trasmissivo è superiore a 50-60 dB. Alcune delle Cause più frequenti di ipoacusia trasmissiva sono:
+Atresia auris congenita o altre malformazioni a carico dell’orecchio esterno
+Esostosi o osteoma del condotto uditivo esterno
+Otiti
+Otosclerosi
+Perforazione timpanica semplice
+Tappo di cerume
+Timpanosclerosi
+Traumi a carico della membrana timpanica
+Ipoacusia neurosensoriale: il danno è localizzato a livello della coclea (ipoacusia neurosensoriale cocleare) o a livello del nervo acustico (ipoacusia neurosensoriale retrococleare).                                     Il deficit dipende dall’entità del danno e dalla localizzazione mono o bilaterale. I tipi più frequenti sono:
+Ipoacusia neurosensoriale del bambino
+Ipoacusia neurosensoriale del bambino (prelinguali, perilinguali e postlinguali)
+Ipoacusia neurosensoriale infantile unilaterale
+Ipoacusia neurosensoriale dell’adulto a lenta insorgenza
+Presbiacusia (ARHL)
+Trauma acustico cronico (NIHL)
+Neurinoma dell'acustico
+Ipoacusia associata a patologie croniche extra-auricolari
+Ipoacusia su base idiopatica
+
+Ipoacusia neurosensoriale dell’adulto a rapida insorgenza
+Sordità improvvisa
+Ipoacusia fluttuante
+Ipoacusia su base autoimmunitaria
+Ipoacusia neurosensoriale su base traumatica
+Trauma acustico acuto
+Ototossicosi
+Ipoacusia mista: in questi casi la causa del danno uditivo coinvolge sia l’apparato di trasmissione (orecchio esterno o medio) del suono che quello di trasduzione (coclea) o trasmissione (nervo acustico). Molti dei fenomeni infiammatori (otiti) o distrofici (otosclerosi) a carico dell’orecchio medio causano questo tipo di ipoacusia.
+Ipoacusia percettiva: il danno è localizzato a livello delle vie centrali di trasmissione del segnale nervoso. In questi casi l’audiogramma può risultare normale pur con significativa alterazione delle capacità integrative.
+In base all’entità dell’ipoacusia si riconoscono:
+Ipoacusia lieve: tale deficit è caratterizzato da un abbassamento della soglia uditiva tra 20 e 40 dB. Essa, a parte la non audizione di suoni e rumori fievoli, non comporta nel bambino nessun problema nell'apprendimento del linguaggio.
+Ipoacusie medio/lievi: deficit uditivo caratterizzato da un abbassamento della soglia uditiva che varia tra i 40 e 65 dB. Tale deficit, se diagnosticato nei primi mesi di vita di un bambino, non porta quasi nessun rischio nell'imparare il linguaggio.
+Ipoacusia profonda: tale deficit si attesta con perdite uditive che variano dai 65 agli 85 dB. Come nella sordità, se essa si manifesta in età preverbale, l'apprendimento del parlato risulta essere molto precario.
+Sordità: deficit superiore agli 85 dB(decibel), con compromissione dell’acquisizione del linguaggio nell’età infantile e handicap sociale nell’età adulta.
+Inoltre è possibile distinguere
+Anacusia: perdita completa unilaterale dell’udito
+Cofosi: perdita completa bilaterale dell’udito
+
+							</p>
+						</div>
+						
+						<br/><br/>
+						
+						<br class="clear"/>
+						
+					</div>
+					
+					<div class="side_bar">
+						<div class="content" style="margin-top:40px">
+							<h4>
+								In evidenza
+							</h4>
+							
+							<ul class="posts">
+								<li>
+									<img src="${request.static_url('cac:static/cac_imgs/test_udito.jpg')}" width="85px" alt=""/>
+									<a href="test_udito">
+										Test udito online
+									</a><br/>
+									Rispondendo a delle semplici domande potrai capire
+									se hai problemi d'udito o meno...
+								</li>
+								<li>
+									<img src="${request.static_url('cac:static/cac_imgs/test_udito_sede.jpg')}" width="85px" alt=""/>
+									<a href="blog_post.html">
+										Test udito in sede gratuito
+									</a><br/>
+									Prenota una visita
+									gratuita del test dell'udito completamente indolore e 
+									non invasiva.
+								</li>
+							</ul>
+						</div>
+					</div>
+					
+				</div>
+				<!-- End two column content -->
+     </metal:content>
+     <metal:slider fill-slot="slider">
+		 <div class="caption"> 
+			<h1>Ipoacusia</h1> 
+		</div> 
+     </metal:slider>
+</metal:html>

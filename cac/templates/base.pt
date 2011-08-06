@@ -70,27 +70,22 @@
 								<div class="content">
 									<ul class="submenu">
 										<li>
-											<a href="portfolio_default.html">
+											<a href="${request.application_url}/come_funziona_udito">
 												Come funziona l'udito
 											</a>
 										</li>
 										<li>
-											<a href="portfolio_with_slider.html">
+											<a href="${request.application_url}/ipoacusia">
 												Ipoacussia
 											</a>
 										</li>
 										<li>
-											<a href="portfolio_one_column.html">
-												Aiuto dei familiari
-											</a>
-										</li>
-										<li>
-											<a href="portfolio_one_column.html">
+											<a href="${request.application_url}/il_nostro_aiuto">
 												Il nostro aiuto
 											</a>
 										</li>
 										<li>
-											<a href="portfolio_one_column.html">
+											<a href="${request.application_url}/test_online">
 												Test dell'udito online
 											</a>
 										</li>
@@ -109,8 +104,23 @@
 								<div class="content">
 									<ul class="submenu">
 										<li>
-											<a href="full_width.html">
-												Boh
+											<a href="${request.application_url}/apparecchi_ad_occhiale">
+												Ad occhiale
+											</a>
+										</li>
+										<li>
+											<a href="${request.application_url}/apparecchi_retroauricolare">
+												Retroauricolare
+											</a>
+										</li>
+										<li>
+											<a href="${request.application_url}/apparecchi_ricevitore_nel_canale">
+												Ricevitore nel canale
+											</a>
+										</li>
+										<li>
+											<a href="${request.application_url}/apparecchi_endoauricolare">
+												Endoauricolare
 											</a>
 										</li>
 									</ul>
@@ -121,12 +131,12 @@
 						</li>
 						<li>
 							<a href="${request.application_url}/about" class="${'active' if request.view_name == 'about' else ''}">
-								About us
+								Chi siamo
 							</a>
 						</li>
 						<li>
 							<a href="${request.application_url}/contact" class="${'active' if request.view_name == 'contact' else ''}">
-								Contact
+								Contattaci
 							</a>
 						</li>
 					</ul>

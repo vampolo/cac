@@ -1,0 +1,76 @@
+<metal:html use-macro="base.macros['main']">
+     <metal:content fill-slot="content">
+	<!-- Begin two column content -->
+				<div class="two_column">
+				
+					<div class="main">
+						<h4>Informazioni</h4>
+						
+						<div class="post_wrapper">
+							<!--
+							<div class="frame">
+								<a href="${request.static_url('cac:static/cac_imgs/disegno_udito.jpg')}" class="portfolio_image">
+									<img src="${request.static_url('cac:static/cac_imgs/disegno_udito.jpg')}" width="320px" alt=""/>
+								</a>
+							</div>
+							-->
+							<br/>
+							<p>
+								ENDOAURICOLARI
+
+
+
+Gli endoauricolari sono gli apparecchi acustici personalizzati su misura per il massimo beneficio e comfort acustico.
+Sono in gradi di coprire perdite da lievi a gravi, vengono inseriti all’interno del condotto uditivo.
+Le dimensioni variano secondo la profondità di inserimento nel canale, il circuito amplificatore utilizzato ed il tipo di perdita uditiva. I componenti sono alloggiati all’interno di un piccolo guscio, realizzato su misura per ogni paziente. 
+Gli endoauricolari richiedono una manutenzione più attenta, ma assicurano un confort elevato ed assoluta discrezione.
+ Al Centro Acustico Certosa troverete una gamma completa di apparecchi che si distinguono per la qualità della riproduzione sonora, le dimensioni minime e la semplicità dell’assistenza.
+
+MARCHI TRATTATI
+
+							</p>
+						</div>
+						
+						<br/><br/>
+						
+						<br class="clear"/>
+						
+					</div>
+					
+					<div class="side_bar">
+						<div class="content" style="margin-top:40px">
+							<h4>
+								In evidenza
+							</h4>
+							
+							<ul class="posts">
+								<li>
+									<img src="${request.static_url('cac:static/cac_imgs/test_udito.jpg')}" width="85px" alt=""/>
+									<a href="test_udito">
+										Test udito online
+									</a><br/>
+									Rispondendo a delle semplici domande potrai capire
+									se hai problemi d'udito o meno...
+								</li>
+								<li>
+									<img src="${request.static_url('cac:static/cac_imgs/test_udito_sede.jpg')}" width="85px" alt=""/>
+									<a href="blog_post.html">
+										Test udito in sede gratuito
+									</a><br/>
+									Prenota una visita
+									gratuita del test dell'udito completamente indolore e 
+									non invasiva.
+								</li>
+							</ul>
+						</div>
+					</div>
+					
+				</div>
+				<!-- End two column content -->
+     </metal:content>
+     <metal:slider fill-slot="slider">
+		 <div class="caption"> 
+			<h1>Apparecchi endoauricolari</h1> 
+		</div> 
+     </metal:slider>
+</metal:html>

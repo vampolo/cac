@@ -1,6 +1,6 @@
 <metal:html use-macro="base.macros['main']">
      <metal:content fill-slot="content">
-		<!-- Begin two column content -->
+	<!-- Begin two column content -->
 				<div class="two_column">
 				
 					<div class="main">
@@ -14,69 +14,22 @@
 							</div>
 							<br/>
 							<p>
-								Il Centro Acustico Certosa inizia la sua attività nel 2001, È iscritto all'ANA (Associazione Nazionale Audioprotesisti) ed è convenzionato con ASL - INAIL. Ciò che caratterizza l'attività del Centro Acustico Certosa è il rapporto umano che si instaura tra cliente ed audioprotesista, rapporto spesso trascurato nella maggior parte delle attività commerciali: non più solo clienti ma clienti soddisfatti. È questo l'obiettivo che ancora oggi caratterizza l'attività: raggiungere la soddisfazione completa del paziente, tenendo conto di ogni minimo aspetto dell'applicazione di un apparecchio acustico come: l'ambiente in cui il paziente vive, il suo stile di vita, l'ambiente lavorativo, le sue esigenze di ascolto e quelle estetiche e, perché no, l'aspetto economico.
+								Il Centro Acustico Certosa inizia la sua attività nel 2001, è iscritto all’ANA(Associazione Nazionale Audioprotesisti).
+Il Centro Acustico Certosa è gestito dal Dott. Massimo Gallicano, Dottore in Tecniche Audioprotesiche, laureato all’Università degli Studi di Padova, presso la facoltà di Medicina e Chirurgia.
+Ciò che caratterizza l’attività del Centro Acustico Certosa è il rapporto umano che si instaura tra Paziente ed Audioprotesista, rapporto spesso trascurato nella maggior parte delle attività commerciali: non più solo ‘Pazienti’ ma Pazienti soddisfatti.
+Questo è l’obiettivo che ancora oggi caratterizza l’attività: raggiungere la soddisfazione completa del Paziente, tenendo conto di ogni minimo aspetto dell’applicazione di un apparecchio acustico come l’ambiente in cui una persona vive, il suo stile di vita, l’ambiente lavorativo, le sue esigenze di ascolto e quelle estetiche e perché no, l’aspetto economico!
+Il Dott. Massimo Gallicano, a dieci anni dall'apertura del Centro acustico Certosa ha deciso nel 2011 di aprire un nuovo punto di riferimento nella città di Milano, dove le persone potranno beneficiare degli stessi servizi offerti sino ad oggi.
+
+Il nuovo studio è gestito dal Dott. Mattia Gallicano, Dottore in Tecniche Audioprotesiche, laureato all’Università degli Studi di Milano, presso la facoltà di Medicina e Chirurgia.
+
+Completano lo staff, Simona e Cinzia, punto di riferimento per tutti coloro che necessitano chiarimenti sulle procedure burocratiche, tipo pratiche ASL etc.. 
+
 							</p>
 						</div>
 						
 						<br/><br/>
 						
-						<h4>Cosa dicono di noi</h4><br/>
-						
-						<div class="testimonials">
-							<p id="testimonial1" style="display:block">
-								<strong>This is awesome!</strong><br/>
-								labolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dosectetur adipisicing elit, sed do.Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-								<br/><br/>
-								<strong><a href="">John Doe, CEO</a></strong>
-							</p>
-							<p id="testimonial2">
-								<strong>Nice template!</strong><br/>
-								labolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dosectetur adipisicing elit, sed do.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut enim ad minim veniam. labolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dosectetur adipisicing elit, sed do.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut enim ad minim veniam
-								<br/><br/>
-								<strong><a href="">John Doe, CEO</a></strong>
-							</p>
-							<p id="testimonial3">
-								<strong>This is awesome!</strong><br/>
-								labolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dosectetur adipisicing elit, sed do.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dosectetur adipisicing elit, sed do enim ad minim veniam.
-								<br/><br/>
-								<strong><a href="">John Doe, CEO</a></strong>
-							</p>
-							<p id="testimonial4">
-								<strong>Nice template!</strong><br/>
-								labolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dosectetur adipisicing elit, sed do.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dosectetur adipisicing elit, sed do enim ad minim veniam. Lorem ipsum dosectetur adipisicing elit, sed do enim ad minim veniam.
-								<br/><br/>
-								<strong><a href="">John Doe, CEO</a></strong>
-							</p>
-						</div>
-						
 						<br class="clear"/>
-						
-						<div id="testimonials_triangle" class="testimonials_triangle"></div>
-						
-						<div class="testimonials_owner">
-							<ul>
-								<li>
-									<a href="#testimonial1">
-										<img src="example/avatar1.jpg" alt=""/>
-									</a>
-								</li>
-								<li>
-									<a href="#testimonial2">
-										<img src="example/avatar2.jpg" alt=""/>
-									</a>
-								</li>
-								<li>
-									<a href="#testimonial3">
-										<img src="example/avatar3.jpg" alt=""/>
-									</a>
-								</li>
-								<li>
-									<a href="#testimonial4">
-										<img src="example/avatar4.jpg" alt=""/>
-									</a>
-								</li>
-							</ul>
-						</div>
 						
 					</div>
 					

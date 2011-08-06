@@ -1,0 +1,75 @@
+<metal:html use-macro="base.macros['main']">
+     <metal:content fill-slot="content">
+	<!-- Begin two column content -->
+				<div class="two_column">
+				
+					<div class="main">
+						<h4>Informazioni</h4>
+						
+						<div class="post_wrapper">
+							<!--
+							<div class="frame">
+								<a href="${request.static_url('cac:static/cac_imgs/disegno_udito.jpg')}" class="portfolio_image">
+									<img src="${request.static_url('cac:static/cac_imgs/disegno_udito.jpg')}" width="320px" alt=""/>
+								</a>
+							</div>
+							-->
+							<br/>
+							<p>
+								Apparecchi Retroauricolari (Behind-the-Ear - BTE)
+
+
+
+I retroauricolari sono degli apparecchi acustici posizionati dietro l’orecchio. I suoni amplificati vengono trasmessi al timpano tramite un tubicino ed un auricolare (Realizzato su misura), alloggiato nel condotto uditivo. Le maggiori dimensioni di questi prodotti consentono di ospitare circuiti più potenti, e di correggere perdite uditive anche gravi e profonde. Inoltre il loro posizionamento esterno ne semplifica l’utilizzo da parte dei pazienti, rendendoli adatti anche ai bambini o adulti con scarsa manualità.
+Ci sono apparecchi acustici retroauricolari di varie dimensioni, alcune talmente contenute che possono essere letteralmente nascosti dietro l'orecchio e sono disponibili con differenti caratteristiche.  
+Hanno la possibilità di gestire le connessioni Wireless, per l’uso del televisore o del cellulare.
+Il loro posizionamento dietro l’orecchio facilita la manutenzione e la durata nel tempo del  apparecchio.
+
+MARCHI TRATTATI
+
+							</p>
+						</div>
+						
+						<br/><br/>
+						
+						<br class="clear"/>
+						
+					</div>
+					
+					<div class="side_bar">
+						<div class="content" style="margin-top:40px">
+							<h4>
+								In evidenza
+							</h4>
+							
+							<ul class="posts">
+								<li>
+									<img src="${request.static_url('cac:static/cac_imgs/test_udito.jpg')}" width="85px" alt=""/>
+									<a href="test_udito">
+										Test udito online
+									</a><br/>
+									Rispondendo a delle semplici domande potrai capire
+									se hai problemi d'udito o meno...
+								</li>
+								<li>
+									<img src="${request.static_url('cac:static/cac_imgs/test_udito_sede.jpg')}" width="85px" alt=""/>
+									<a href="blog_post.html">
+										Test udito in sede gratuito
+									</a><br/>
+									Prenota una visita
+									gratuita del test dell'udito completamente indolore e 
+									non invasiva.
+								</li>
+							</ul>
+						</div>
+					</div>
+					
+				</div>
+				<!-- End two column content -->
+     </metal:content>
+     <metal:slider fill-slot="slider">
+		 <div class="caption"> 
+			<h1>Apparecchi retroauricolari</h1> 
+		</div> 
+     </metal:slider>
+</metal:html>
