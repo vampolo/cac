@@ -63,7 +63,7 @@
 						</li>
 						<li>
 							<a href="portfolio.html">
-								Informazioni sul nostro udito
+								Udito
 							</a>
 							<div class="popup">
 								<div class="top"></div>
@@ -71,7 +71,7 @@
 									<ul class="submenu">
 										<li>
 											<a href="${request.application_url}/come_funziona_udito">
-												Come funziona l'udito
+												Come funziona
 											</a>
 										</li>
 										<li>
@@ -86,7 +86,7 @@
 										</li>
 										<li>
 											<a href="${request.application_url}/test_online">
-												Test dell'udito online
+												Test online
 											</a>
 										</li>
 									</ul>
@@ -115,7 +115,7 @@
 										</li>
 										<li>
 											<a href="${request.application_url}/apparecchi_ricevitore_nel_canale">
-												Ricevitore nel canale
+												Ric. nel canale
 											</a>
 										</li>
 										<li>
@@ -135,8 +135,8 @@
 							</a>
 						</li>
 						<li>
-							<a href="${request.application_url}/contact" class="${'active' if request.view_name == 'contact' else ''}">
-								Contattaci
+							<a href="${request.application_url}/where" class="${'active' if request.view_name == 'where' else ''}">
+								Dove siamo e contatti
 							</a>
 						</li>
 					</ul>
@@ -251,75 +251,21 @@
 						
 						<div class="post_wrapper">
 							<div class="frame">
-								<a href="${request.static_url('cac:static/cac_imgs/025.jpg')}" class="portfolio_image">
-									<img src="${request.static_url('cac:static/cac_imgs/025.jpg')}" width="320px" alt=""/>
+								<a href="${request.static_url('cac:static/cac_imgs/logo.jpg')}" class="portfolio_image">
+									<img src="${request.static_url('cac:static/cac_imgs/logo.jpg')}" width="320px" alt=""/>
 								</a>
 							</div>
 							<br/>
 							<p>
-								Il Centro Acustico Certosa inizia la sua attività nel 2001, È iscritto all'ANA (Associazione Nazionale Audioprotesisti) ed è convenzionato con ASL - INAIL. Ciò che caratterizza l'attività del Centro Acustico Certosa è il rapporto umano che si instaura tra cliente ed audioprotesista, rapporto spesso trascurato nella maggior parte delle attività commerciali: non più solo clienti ma clienti soddisfatti. È questo l'obiettivo che ancora oggi caratterizza l'attività: raggiungere la soddisfazione completa del paziente, tenendo conto di ogni minimo aspetto dell'applicazione di un apparecchio acustico come: l'ambiente in cui il paziente vive, il suo stile di vita, l'ambiente lavorativo, le sue esigenze di ascolto e quelle estetiche e, perché no, l'aspetto economico.
+								Il Centro Acustico Certosa inizia la sua attività nel 2001, È iscritto all'ANA (Associazione Nazionale Audioprotesisti) ed è convenzionato con ASL - INAIL. <br/>
+								Ciò che caratterizza l'attività del Centro Acustico Certosa è il rapporto umano che si instaura tra cliente ed audioprotesista, rapporto spesso trascurato nella maggior parte delle attività commerciali: non più solo clienti ma clienti soddisfatti. <br/>
+								È questo l'obiettivo che ancora oggi caratterizza l'attività: raggiungere la soddisfazione completa del paziente, tenendo conto di ogni minimo aspetto dell'applicazione di un apparecchio acustico come: l'ambiente in cui il paziente vive, il suo stile di vita, l'ambiente lavorativo, le sue esigenze di ascolto e quelle estetiche e, perché no, l'aspetto economico.
 							</p>
 						</div>
 						
 						<br/><br/>
 						
-						<h4>Cosa dicono di noi</h4><br/>
-						
-						<div class="testimonials">
-							<p id="testimonial1" style="display:block">
-								<strong>This is awesome!</strong><br/>
-								labolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dosectetur adipisicing elit, sed do.Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-								<br/><br/>
-								<strong><a href="">John Doe, CEO</a></strong>
-							</p>
-							<p id="testimonial2">
-								<strong>Nice template!</strong><br/>
-								labolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dosectetur adipisicing elit, sed do.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut enim ad minim veniam. labolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dosectetur adipisicing elit, sed do.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut enim ad minim veniam
-								<br/><br/>
-								<strong><a href="">John Doe, CEO</a></strong>
-							</p>
-							<p id="testimonial3">
-								<strong>This is awesome!</strong><br/>
-								labolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dosectetur adipisicing elit, sed do.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dosectetur adipisicing elit, sed do enim ad minim veniam.
-								<br/><br/>
-								<strong><a href="">John Doe, CEO</a></strong>
-							</p>
-							<p id="testimonial4">
-								<strong>Nice template!</strong><br/>
-								labolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dosectetur adipisicing elit, sed do.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dosectetur adipisicing elit, sed do enim ad minim veniam. Lorem ipsum dosectetur adipisicing elit, sed do enim ad minim veniam.
-								<br/><br/>
-								<strong><a href="">John Doe, CEO</a></strong>
-							</p>
-						</div>
-						
 						<br class="clear"/>
-						
-						<div id="testimonials_triangle" class="testimonials_triangle"></div>
-						
-						<div class="testimonials_owner">
-							<ul>
-								<li>
-									<a href="#testimonial1">
-										<img src="example/avatar1.jpg" alt=""/>
-									</a>
-								</li>
-								<li>
-									<a href="#testimonial2">
-										<img src="example/avatar2.jpg" alt=""/>
-									</a>
-								</li>
-								<li>
-									<a href="#testimonial3">
-										<img src="example/avatar3.jpg" alt=""/>
-									</a>
-								</li>
-								<li>
-									<a href="#testimonial4">
-										<img src="example/avatar4.jpg" alt=""/>
-									</a>
-								</li>
-							</ul>
-						</div>
 						
 					</div>
 					

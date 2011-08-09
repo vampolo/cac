@@ -5,6 +5,9 @@ from pyramid.view import view_config
 @view_config(name='about',
 			 context='cac:resources.Root',
              renderer='cac:templates/about.pt')
+@view_config(name='where',
+			 context='cac:resources.Root',
+             renderer='cac:templates/where.pt')
 @view_config(name='contact',
 			 context='cac:resources.Root',
              renderer='cac:templates/contact.pt')

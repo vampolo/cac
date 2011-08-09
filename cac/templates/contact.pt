@@ -5,11 +5,8 @@
 				
 					<div class="main">
 						
-						<h4>Send us a message</h4>
+						<h4>Informazioni</h4>
 						<br/>
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-						</p>
 						<br/>
 						<form id="contact_form" method="post" action="mailer.php">
 							<p style="margin-top:20px">
@@ -65,7 +62,7 @@
      </metal:content>
      <metal:slider fill-slot="slider">
 		 <div class="caption"> 
-			<h1>Contact</h1> 
+			<h1>Contattaci</h1> 
 		</div> 
      </metal:slider>
 </metal:html>
