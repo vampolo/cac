@@ -1010,3 +1010,7 @@ input[type=button].silver:active, input[type=submit].silver:active
 #map {
 	text-align:center;
 }
+
+.stabilize img {
+	width:200px;
+}

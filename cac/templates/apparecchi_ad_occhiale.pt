@@ -7,27 +7,24 @@
 						<h4>Informazioni</h4>
 						
 						<div class="post_wrapper">
-							<!--
 							<div class="frame">
-								<a href="${request.static_url('cac:static/cac_imgs/disegno_udito.jpg')}" class="portfolio_image">
-									<img src="${request.static_url('cac:static/cac_imgs/disegno_udito.jpg')}" width="320px" alt=""/>
+								<a href="${request.static_url('cac:static/cac_imgs/apparecchi_ad_occhiale.jpg')}" class="portfolio_image">
+									<img src="${request.static_url('cac:static/cac_imgs/apparecchi_ad_occhiale.jpg')}" width="320px" alt=""/>
 								</a>
 							</div>
-							-->
 							<br/>
 							<p>
-								APPARECCHI ACUSTICI AD OCCHIALE
-PHOTO HERE
-
-Negli apparecchi acustici a occhiale le astine ospitano e nascondono il circuito elettronico. Secondo la modalità di conduzione del suono all’orecchio, gli occhiali si suddividono in:
-Occhiali a conduzione ossea 
-Il circuito amplificatore trasforma i suoni in vibrazioni, che, tramite un vibratore posto sul terminale dell’occhiale, vengono trasmessi all’osso mastoideo. Da qui tali vibrazioni pervengono alla coclea. Questi apparecchi sono indicati per le ipoacusie trasmissive o miste, o nei casi in cui sia fisicamente impossibile l’uso degli apparecchi a conduzione aerea (otite media, otosclerosi, mastoidectomia radicale, otorrea, stenosi del condotto, …). Gli occhiali a conduzione ossea non richiedono niente nell’orecchio (ne tubicini, ne chiocciole, ne gusci) e si mimetizzano perfettamente nell’asta dell’occhiale.
-Occhiali a conduzione aerea 
-In cui come negli altri apparecchi acustici, i suoni giungono al timpano tramite un auricolare su misura, collegato all’asta e posizionato nel condotto uditivo. Indicati per la correzione di perdite uditive anche gravi.
-
-MARCHI TRATTATI
-
+																
+								Negli apparecchi acustici a occhiale le astine ospitano e nascondono il circuito elettronico. Secondo la modalità di conduzione del suono all’orecchio, gli occhiali si suddividono in:
 							</p>
+							<ul>
+								<li>Occhiali a conduzione ossea
+									<p>Il circuito amplificatore trasforma i suoni in vibrazioni, che, tramite un vibratore posto sul terminale dell’occhiale, vengono trasmessi all’osso mastoideo. Da qui tali vibrazioni pervengono alla coclea. Questi apparecchi sono indicati per le ipoacusie trasmissive o miste, o nei casi in cui sia fisicamente impossibile l’uso degli apparecchi a conduzione aerea (otite media, otosclerosi, mastoidectomia radicale, otorrea, stenosi del condotto, …). Gli occhiali a conduzione ossea non richiedono niente nell’orecchio (ne tubicini, ne chiocciole, ne gusci) e si mimetizzano perfettamente nell’asta dell’occhiale.</p>
+								</li>
+								<li>Occhiali a conduzione aerea 
+									<p>In cui come negli altri apparecchi acustici, i suoni giungono al timpano tramite un auricolare su misura, collegato all’asta e posizionato nel condotto uditivo. Indicati per la correzione di perdite uditive anche gravi.</p>
+								</li>
+							</ul>
 						</div>
 						
 						<br/><br/>

@@ -7,26 +7,35 @@
 						<h4>Informazioni</h4>
 						
 						<div class="post_wrapper">
-							<!--
+							
 							<div class="frame">
-								<a href="${request.static_url('cac:static/cac_imgs/disegno_udito.jpg')}" class="portfolio_image">
-									<img src="${request.static_url('cac:static/cac_imgs/disegno_udito.jpg')}" width="320px" alt=""/>
+								<a href="${request.static_url('cac:static/cac_imgs/apparecchi_ricevitore_nel_canale.jpg')}" class="portfolio_image">
+									<img src="${request.static_url('cac:static/cac_imgs/apparecchi_ricevitore_nel_canale.jpg')}" width="320px" alt=""/>
 								</a>
 							</div>
-							-->
+							
 							<br/>
 							<p>
-								APPARECCHI ACUSTICI CON RICEVITORE NEL CANALE  (RITE)
-
-Negli apparecchi acustici RITE il ricevitore o altoparlante, si inserisce comodamente nel condotto uditivo. Questo ricevitore è sostenuto da una morbida cupola aperta (materiale siliconico) o da una micro chiocciola su misura.
-Il sottilissimo raccordo tra il ricevitore e il processore posto dietro il padiglione auricolare, è costituito da un “invisibile” filo elettrico. 
-Il grande vantaggio, su talune perdite uditive è l’ottenimento di un'ottima qualità sonora senza l’effetto occlusione prodotto dalla chiusura del condotto. 
-Il risultato è un'ottima qualità di ascolto senza occlusione del condotto ed un'estetica eccezionale!
-Rappresentano lo standard costruttivo del futuro poiché racchiudono i principali vantaggi sia dei sistemi endoauricolari che retroauricolari e nonostante le dimensioni “micro” godono di tutti i sistemi di connettività  Wireless, per un ascolto ottimale anche della televisione e del telefono.  
-
-MARCHI TRATTATI
-
+								Negli apparecchi acustici RITE il ricevitore o altoparlante, si inserisce comodamente nel condotto uditivo. Questo ricevitore è sostenuto da una morbida cupola aperta (materiale siliconico) o da una micro chiocciola su misura.
+								<br/>
+								Il sottilissimo raccordo tra il ricevitore e il processore posto dietro il padiglione auricolare, è costituito da un “invisibile” filo elettrico. 
+								<br/>
+								Il grande vantaggio, su talune perdite uditive è l’ottenimento di un'ottima qualità sonora senza l’effetto occlusione prodotto dalla chiusura del condotto. 
+								<br/>
+								Il risultato è un'ottima qualità di ascolto senza occlusione del condotto ed un'estetica eccezionale!
+								<br/>
+								Rappresentano lo standard costruttivo del futuro poiché racchiudono i principali vantaggi sia dei sistemi endoauricolari che retroauricolari e nonostante le dimensioni “micro” godono di tutti i sistemi di connettività  Wireless, per un ascolto ottimale anche della televisione e del telefono.  
 							</p>
+							<br/>
+							<h5>Marchi trattati</h5>
+							<div class="frame stabilize">
+								<img src="${request.static_url('cac:static/cac_imgs/phonak_logo.jpg')}"/>
+								<img src="${request.static_url('cac:static/cac_imgs/starkey-logo.jpg')}"/>
+								<img src="${request.static_url('cac:static/cac_imgs/Logo Widex.jpg')}"/>
+								<img src="${request.static_url('cac:static/cac_imgs/logo-oticon.jpg')}"/>
+								<img src="${request.static_url('cac:static/cac_imgs/logo_AeM.jpg')}"/>
+								<img src="${request.static_url('cac:static/cac_imgs/Bernafon_Logo.jpg')}"/>
+							</div>
 						</div>
 						
 						<br/><br/>
@@ -68,7 +77,7 @@ MARCHI TRATTATI
      </metal:content>
      <metal:slider fill-slot="slider">
 		 <div class="caption"> 
-			<h1>Apparecchi con il ricevitore nel canale</h1> 
+			<h1>Apparecchi con il ricevitore nel canale (RITE)</h1> 
 		</div> 
      </metal:slider>
 </metal:html>

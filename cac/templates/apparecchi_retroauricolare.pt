@@ -7,27 +7,33 @@
 						<h4>Informazioni</h4>
 						
 						<div class="post_wrapper">
-							<!--
+							
 							<div class="frame">
-								<a href="${request.static_url('cac:static/cac_imgs/disegno_udito.jpg')}" class="portfolio_image">
-									<img src="${request.static_url('cac:static/cac_imgs/disegno_udito.jpg')}" width="320px" alt=""/>
+								<a href="${request.static_url('cac:static/cac_imgs/apparecchi_retroauricolari.jpg')}" class="portfolio_image">
+									<img src="${request.static_url('cac:static/cac_imgs/apparecchi_retroauricolari.jpg')}" width="320px" alt=""/>
 								</a>
 							</div>
-							-->
+							
 							<br/>
 							<p>
-								Apparecchi Retroauricolari (Behind-the-Ear - BTE)
-
-
-
-I retroauricolari sono degli apparecchi acustici posizionati dietro l’orecchio. I suoni amplificati vengono trasmessi al timpano tramite un tubicino ed un auricolare (Realizzato su misura), alloggiato nel condotto uditivo. Le maggiori dimensioni di questi prodotti consentono di ospitare circuiti più potenti, e di correggere perdite uditive anche gravi e profonde. Inoltre il loro posizionamento esterno ne semplifica l’utilizzo da parte dei pazienti, rendendoli adatti anche ai bambini o adulti con scarsa manualità.
-Ci sono apparecchi acustici retroauricolari di varie dimensioni, alcune talmente contenute che possono essere letteralmente nascosti dietro l'orecchio e sono disponibili con differenti caratteristiche.  
-Hanno la possibilità di gestire le connessioni Wireless, per l’uso del televisore o del cellulare.
-Il loro posizionamento dietro l’orecchio facilita la manutenzione e la durata nel tempo del  apparecchio.
-
-MARCHI TRATTATI
-
+								I retroauricolari sono degli apparecchi acustici posizionati dietro l’orecchio. I suoni amplificati vengono trasmessi al timpano tramite un tubicino ed un auricolare (Realizzato su misura), alloggiato nel condotto uditivo. Le maggiori dimensioni di questi prodotti consentono di ospitare circuiti più potenti, e di correggere perdite uditive anche gravi e profonde. Inoltre il loro posizionamento esterno ne semplifica l’utilizzo da parte dei pazienti, rendendoli adatti anche ai bambini o adulti con scarsa manualità.
+								<br/>
+								Ci sono apparecchi acustici retroauricolari di varie dimensioni, alcune talmente contenute che possono essere letteralmente nascosti dietro l'orecchio e sono disponibili con differenti caratteristiche.  
+								<br/>
+								Hanno la possibilità di gestire le connessioni Wireless, per l’uso del televisore o del cellulare.
+								<br/>
+								Il loro posizionamento dietro l’orecchio facilita la manutenzione e la durata nel tempo del  apparecchio.
 							</p>
+							<br/>
+							<h5>Marchi trattati</h5>
+							<div class="frame stabilize">
+								<img src="${request.static_url('cac:static/cac_imgs/phonak_logo.jpg')}"/>
+								<img src="${request.static_url('cac:static/cac_imgs/starkey-logo.jpg')}"/>
+								<img src="${request.static_url('cac:static/cac_imgs/Logo Widex.jpg')}"/>
+								<img src="${request.static_url('cac:static/cac_imgs/logo-oticon.jpg')}"/>
+								<img src="${request.static_url('cac:static/cac_imgs/logo_AeM.jpg')}"/>
+								<img src="${request.static_url('cac:static/cac_imgs/Bernafon_Logo.jpg')}"/>
+							</div>
 						</div>
 						
 						<br/><br/>
@@ -69,7 +75,7 @@ MARCHI TRATTATI
      </metal:content>
      <metal:slider fill-slot="slider">
 		 <div class="caption"> 
-			<h1>Apparecchi retroauricolari</h1> 
+			<h1>Apparecchi retroauricolari (Behind-the-Ear - BTE)</h1> 
 		</div> 
      </metal:slider>
 </metal:html>

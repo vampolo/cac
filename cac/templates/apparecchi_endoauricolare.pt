@@ -7,28 +7,38 @@
 						<h4>Informazioni</h4>
 						
 						<div class="post_wrapper">
-							<!--
+							
 							<div class="frame">
-								<a href="${request.static_url('cac:static/cac_imgs/disegno_udito.jpg')}" class="portfolio_image">
-									<img src="${request.static_url('cac:static/cac_imgs/disegno_udito.jpg')}" width="320px" alt=""/>
+								<a href="${request.static_url('cac:static/cac_imgs/apparecchi_endoauricolari.jpg')}" class="portfolio_image">
+									<img src="${request.static_url('cac:static/cac_imgs/apparecchi_endoauricolari.jpg')}" width="320px" alt=""/>
+								</a>
+								<a href="${request.static_url('cac:static/cac_imgs/apparecchi_endoauricolari2.jpg')}" class="portfolio_image">
+									<img src="${request.static_url('cac:static/cac_imgs/apparecchi_endoauricolari2.jpg')}" width="320px" alt=""/>
 								</a>
 							</div>
-							-->
+							
 							<br/>
 							<p>
-								ENDOAURICOLARI
-
-
-
-Gli endoauricolari sono gli apparecchi acustici personalizzati su misura per il massimo beneficio e comfort acustico.
-Sono in gradi di coprire perdite da lievi a gravi, vengono inseriti all’interno del condotto uditivo.
-Le dimensioni variano secondo la profondità di inserimento nel canale, il circuito amplificatore utilizzato ed il tipo di perdita uditiva. I componenti sono alloggiati all’interno di un piccolo guscio, realizzato su misura per ogni paziente. 
-Gli endoauricolari richiedono una manutenzione più attenta, ma assicurano un confort elevato ed assoluta discrezione.
- Al Centro Acustico Certosa troverete una gamma completa di apparecchi che si distinguono per la qualità della riproduzione sonora, le dimensioni minime e la semplicità dell’assistenza.
-
-MARCHI TRATTATI
-
+								Gli endoauricolari sono gli apparecchi acustici personalizzati su misura per il massimo beneficio e comfort acustico.
+								<br/>
+								Sono in gradi di coprire perdite da lievi a gravi, vengono inseriti all’interno del condotto uditivo.
+								<br/>
+								Le dimensioni variano secondo la profondità di inserimento nel canale, il circuito amplificatore utilizzato ed il tipo di perdita uditiva. I componenti sono alloggiati all’interno di un piccolo guscio, realizzato su misura per ogni paziente. 
+								<br/>
+								Gli endoauricolari richiedono una manutenzione più attenta, ma assicurano un confort elevato ed assoluta discrezione.
+								<br/>
+								Al Centro Acustico Certosa troverete una gamma completa di apparecchi che si distinguono per la qualità della riproduzione sonora, le dimensioni minime e la semplicità dell’assistenza.
 							</p>
+							<br/>
+							<h5>Marchi trattati</h5>
+							<div class="frame stabilize">
+								<img src="${request.static_url('cac:static/cac_imgs/phonak_logo.jpg')}"/>
+								<img src="${request.static_url('cac:static/cac_imgs/starkey-logo.jpg')}"/>
+								<img src="${request.static_url('cac:static/cac_imgs/Logo Widex.jpg')}"/>
+								<img src="${request.static_url('cac:static/cac_imgs/logo-oticon.jpg')}"/>
+								<img src="${request.static_url('cac:static/cac_imgs/logo_AeM.jpg')}"/>
+								<img src="${request.static_url('cac:static/cac_imgs/Bernafon_Logo.jpg')}"/>
+							</div>
 						</div>
 						
 						<br/><br/>
