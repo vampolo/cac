@@ -278,7 +278,7 @@
 							<ul class="posts">
 								<li>
 									<img src="${request.static_url('cac:static/cac_imgs/test_udito.jpg')}" width="85px" alt=""/>
-									<a href="test_udito">
+									<a href="${request.application_url}/test_udito">
 										Test udito online
 									</a><br/>
 									Rispondendo a delle semplici domande potrai capire

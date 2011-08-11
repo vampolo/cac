@@ -38,6 +38,7 @@
 								<img src="${request.static_url('cac:static/cac_imgs/logo-oticon.jpg')}"/>
 								<img src="${request.static_url('cac:static/cac_imgs/logo_AeM.jpg')}"/>
 								<img src="${request.static_url('cac:static/cac_imgs/Bernafon_Logo.jpg')}"/>
+								<img src="${request.static_url('cac:static/cac_imgs/coselgi.jpg')}"/>
 							</div>
 						</div>
 						

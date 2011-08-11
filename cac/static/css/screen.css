@@ -247,8 +247,8 @@ img.mid_align
 	margin: 50px 0 0 0;
 	font-size: 16px;
 	width: 400px;
-	color: #cccccc;
-	text-shadow: 0px 1px #000000;
+	color: white;
+	/*text-shadow: 0px 1px #000000;*/
 	font-weight: normal;
 }
 

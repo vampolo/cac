@@ -1,11 +1,11 @@
 body
 {
-	background: #ffffff url('/images/bg_body_red.png') repeat-x top;
+	background: #ffffff url('/images/bg_body_orange.png') repeat-x top;
 }
 
 body.caption
 {
-	background: #ffffff url('/images/bg_body_red_caption.png') repeat-x top;
+	background: #ffffff url('/images/bg_body_orange_caption.png') repeat-x top;
 }
 
 a
