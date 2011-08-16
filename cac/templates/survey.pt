@@ -1,0 +1,131 @@
+<metal:html use-macro="base.macros['main']">
+     <metal:content fill-slot="content">
+	<!-- Begin two column content -->
+				<div class="two_column">
+				
+					<div class="main">
+						<h4>Informazioni</h4>
+						
+						<div class="post_wrapper">
+							<p>
+								Per effettuare il test dell'udito online basta rispondere alle seguenti domande e poi cliccare su <strong>risultato</strong>
+							</p>
+							<form id="survey">
+							<table class="global" width="100%" cellpadding="0" cellspacing="0">
+							<thead>
+								<tr>
+									<th style="width:70%">Domanda</th>
+									<th style="width:15%">Si</th>
+									<th style="width:15%">No</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Vi capita spesso di far ripetere alle persone quello che dicono?</td>
+									<td><input type="radio" name="question1" value="yes" /></td>
+									<td><input type="radio" name="question1" value="no" /></td>
+								</tr>
+								<tr>
+									<td>I vostri familiari/colleghi/amici vi hanno mai chiesto se avete problemi di udito?</td>
+									<td><input type="radio" name="question2" value="yes" /></td>
+									<td><input type="radio" name="question2" value="no" /></td>
+								</tr>
+								<tr>
+									<td>Vi capita spesso di avere la sensazione che le persone “borbottino” o che parlino in modo non chiaro?</td>
+									<td><input type="radio" name="question3" value="yes" /></td>
+									<td><input type="radio" name="question3" value="no" /></td>
+								</tr>
+								<tr>
+									<td>Evitate spesso di frequentare delle feste o degli eventi sociali in quanto c’è troppo rumore e voi non potete udire quello che le altre persone dicono?</td>
+									<td><input type="radio" name="question4" value="yes" /></td>
+									<td><input type="radio" name="question4" value="no" /></td>
+								</tr>
+								<tr>
+									<td>Quando guardate la Tv con altre persone, dovete alzare il volume più di quanto gli altri necessitano per capire quello che viene detto?</td>
+									<td><input type="radio" name="question5" value="yes" /></td>
+									<td><input type="radio" name="question5" value="no" /></td>
+								</tr>
+								<tr>
+									<td>Durante una conversazione in macchina, in un ristorante o in un altro posto rumoroso, fraintendete spesso ciò che viene detto?</td>
+									<td><input type="radio" name="question6" value="yes" /></td>
+									<td><input type="radio" name="question6" value="no" /></td>
+								</tr>
+								<tr>
+									<td>Durante le riunioni, funzioni religiose o ad una cena dovete sedervi accanto a colui che parla per poterlo sentire?</td>
+									<td><input type="radio" name="question7" value="yes" /></td>
+									<td><input type="radio" name="question7" value="no" /></td>
+								</tr>
+								<tr>
+									<td>Avete spesso difficoltà a capire quello che vi dicono se non avete il contatto visivo mentre parlano?</td>
+									<td><input type="radio" name="question8" value="yes" /></td>
+									<td><input type="radio" name="question8" value="no" /></td>
+								</tr>
+								<tr>
+									<td>Vi stressa o vi stanca il dover parlare o ascoltare per periodi lunghi?</td>
+									<td><input type="radio" name="question9" value="yes" /></td>
+									<td><input type="radio" name="question9" value="no" /></td>
+								</tr>
+								<tr>
+									<td>Avete spesso difficoltà a capire da dove proviene il suono?</td>
+									<td><input type="radio" name="question10" value="yes" /></td>
+									<td><input type="radio" name="question10" value="no" /></td>
+								</tr>
+								<tr>
+									<td colspan="3" align="right"><input type="submit"/></td>
+								</tr>
+							</tbody>
+						</table>
+						</form>
+						<div style="display:None;" id="dialog" title="Prenota una visita gratuita!">
+							<p>Il test online suggerisce che effettui un controllo gratuito dell'udito.<br/>
+							Non preoccuparti! è un test totalmente indolore!<br/>
+							Chiamaci e prenota il tuo appuntamento allo 02-38010914 o invia una <a href="mailto:info@centroacusticocertosa.com">mail</a></p>
+						</div>
+						<div style="display:None;" id="dialog-error" title="Campi incompleti">
+							<p>Devi prima rispondere a tutte le domande per avere il risultato del test!</p>
+						</div>
+						</div>
+						
+						<br/><br/>
+						
+						<br class="clear"/>
+						
+					</div>
+					
+					<div class="side_bar">
+						<div class="content" style="margin-top:40px">
+							<h4>
+								In evidenza
+							</h4>
+							
+							<ul class="posts">
+								<li>
+									<img src="${request.static_url('cac:static/cac_imgs/test_udito.jpg')}" width="85px" alt=""/>
+									<a href="test_udito">
+										Test udito online
+									</a><br/>
+									Rispondendo a delle semplici domande potrai capire
+									se hai problemi d'udito o meno...
+								</li>
+								<li>
+									<img src="${request.static_url('cac:static/cac_imgs/test_udito_sede.jpg')}" width="85px" alt=""/>
+									<a href="blog_post.html">
+										Test udito in sede gratuito
+									</a><br/>
+									Prenota una visita
+									gratuita del test dell'udito completamente indolore e 
+									non invasiva.
+								</li>
+							</ul>
+						</div>
+					</div>
+					
+				</div>
+				<!-- End two column content -->
+     </metal:content>
+     <metal:slider fill-slot="slider">
+		 <div class="caption"> 
+			<h1>Test udito online</h1> 
+		</div> 
+     </metal:slider>
+</metal:html>
