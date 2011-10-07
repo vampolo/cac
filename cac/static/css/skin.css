@@ -22,6 +22,6 @@ a:hover
 
 .submenu li a:hover, .submenu li a:active
 {
-	background: transparent url('/images/bg_submenu_selected_red.png') repeat-x;
+	background: transparent url('/images/bg_submenu_selected_orange.png') repeat-x;
 	color: #fff;
 }

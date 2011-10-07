@@ -54,17 +54,11 @@
 		<div id="${'header_wrapper_caption' if request.view_name else 'header_wrapper'}">
 			<div id="top_bar">
 				<div class="wrapper">
-					<div id="logo">
-						Centro Acustico Certosa
-					</div>
-					
+					<a href="${request.application_url}">
+						<img id="caclogo" src="${request.static_url('cac:static/images/logo.png')}"/>
+					</a>
 					<!-- Begin main nav -->
 					<ul class="nav">
-						<li>
-							<a href="${request.application_url}" class="${'active' if not request.view_name else ''}">
-								Home
-							</a>
-						</li>
 						<li>
 							<a href="portfolio.html">
 								Udito
@@ -75,7 +69,7 @@
 									<ul class="submenu">
 										<li>
 											<a href="${request.application_url}/come_funziona_udito">
-												Come funziona
+												Come funiona
 											</a>
 										</li>
 										<li>
@@ -140,7 +134,12 @@
 						</li>
 						<li>
 							<a href="${request.application_url}/where" class="${'active' if request.view_name == 'where' else ''}">
-								Dove siamo e contatti
+								Dove siamo
+							</a>
+						</li>
+						<li>
+							<a href="${request.application_url}/where" class="${'active' if request.view_name == 'contact_us' else ''}">
+								Contattaci
 							</a>
 						</li>
 					</ul>
@@ -254,12 +253,6 @@
 						<h4>Presentazione</h4>
 						
 						<div class="post_wrapper">
-							<div class="frame">
-								<a href="${request.static_url('cac:static/cac_imgs/logo.jpg')}" class="portfolio_image">
-									<img src="${request.static_url('cac:static/cac_imgs/logo.jpg')}" width="320px" alt=""/>
-								</a>
-							</div>
-							<br/>
 							<p>
 								Il Centro Acustico Certosa inizia la sua attività nel 2001, È iscritto all'ANA (Associazione Nazionale Audioprotesisti) ed è convenzionato con ASL - INAIL. <br/>
 								Ciò che caratterizza l'attività del Centro Acustico Certosa è il rapporto umano che si instaura tra cliente ed audioprotesista, rapporto spesso trascurato nella maggior parte delle attività commerciali: non più solo clienti ma clienti soddisfatti. <br/>

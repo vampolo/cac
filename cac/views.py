@@ -8,6 +8,9 @@ from pyramid.view import view_config
 @view_config(name='where',
 			 context='cac:resources.Root',
              renderer='cac:templates/where.pt')
+@view_config(name='contact_us',
+			 context='cac:resources.Root',
+             renderer='cac:templates/contact.pt')
 @view_config(name='test_udito',
 			 context='cac:resources.Root',
              renderer='cac:templates/survey.pt')
