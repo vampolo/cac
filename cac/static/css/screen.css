@@ -451,13 +451,14 @@ img.mid_align
 
 .frame img
 {
-	margin: 11px 0 0 110px;
+	margin: 11px 0 0 170px;
 	padding:5px;
 	border-left: 1px solid #ddd;
 	border-right: 1px solid #eee;
 	border-bottom: 1px solid #ccc;
 	border-top: 1px solid #eee;
 	box-shadow: 5px 5px 5px #ccc;
+	text-align: center;
 }
 
 
@@ -1015,5 +1016,6 @@ input[type=button].silver:active, input[type=submit].silver:active
 }
 
 .stabilize img {
-	width:200px;
+	width:119px;
+	margin: 11px 0 0 80px;
 }

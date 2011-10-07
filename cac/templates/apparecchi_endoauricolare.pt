@@ -10,10 +10,10 @@
 							
 							<div class="frame">
 								<a href="${request.static_url('cac:static/cac_imgs/apparecchi_endoauricolari.jpg')}" class="portfolio_image">
-									<img src="${request.static_url('cac:static/cac_imgs/apparecchi_endoauricolari.jpg')}" width="320px" alt=""/>
+									<img src="${request.static_url('cac:static/cac_imgs/apparecchi_endoauricolari.jpg')}" width="200px" alt=""/>
 								</a>
 								<a href="${request.static_url('cac:static/cac_imgs/apparecchi_endoauricolari2.jpg')}" class="portfolio_image">
-									<img src="${request.static_url('cac:static/cac_imgs/apparecchi_endoauricolari2.jpg')}" width="320px" alt=""/>
+									<img src="${request.static_url('cac:static/cac_imgs/apparecchi_endoauricolari2.jpg')}" width="200px" alt=""/>
 								</a>
 							</div>
 							

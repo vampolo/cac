@@ -10,7 +10,7 @@
 							
 							<div class="frame">
 								<a href="${request.static_url('cac:static/cac_imgs/apparecchi_retroauricolari.jpg')}" class="portfolio_image">
-									<img src="${request.static_url('cac:static/cac_imgs/apparecchi_retroauricolari.jpg')}" width="320px" alt=""/>
+									<img src="${request.static_url('cac:static/cac_imgs/apparecchi_retroauricolari.jpg')}" width="200px" alt=""/>
 								</a>
 							</div>
 							
