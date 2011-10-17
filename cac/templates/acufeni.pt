@@ -1,0 +1,65 @@
+<metal:html use-macro="base.macros['main']">
+     <metal:content fill-slot="content">
+	<!-- Begin two column content -->
+				<div class="two_column">
+				
+					<div class="main">
+						<h4>Informazioni</h4>
+<p>L’acufene può essere definito un “suono”,  di  varia natura (fischio, ronzio o fruscio), percepito in modo persistente o intermittente da uno o da entrambe le orecchie, con intensità variabile e con effetti spesso molto fastidiosi sia dal punto di vista fisico che psichico, talmente insopportabili  che in alcuni casi possono minare la qualità della vita di una persona, portandola a vere e proprie alterazioni della psiche.<br/> 
+Distinti in soggettivi e oggettivi, a seconda della causa, gli acufeni possono essere provocati da numerosi e possibili fattori, ma fortunatamente negli ultimi anni sono state sperimentate nuove tecniche e terapie in grado di limitarli. 
+</p>
+<br/>
+<h5>Cause</h5>
+<p>Le cause principali degli acufeni possono essere ricondotte a numerosi fattori interessanti l'orecchio interno, il nervo acustico e alcune strutture anatomiche adiacenti, soggette frequentemente a stimoli esterni in grado di danneggiarle. Tra le cause esterne più comuni vanno citati : i traumi cranici e acustici (intensi rumori improvvisi), le infezioni virali o la prolungata e costante esposizione del nostro sistema uditivo a suoni molto forti, sia nei momenti di svago che sul lavoro.<br/>
+L'individuo affetto da acufene può trovare temporaneo sollievo dall'arricchimento sonoro ambientale, grazie al quale può distrarre il cervello dall'ascolto dell'acufene. Una combinazione di arricchimento sonoro e psicoterapia cognitiva nota come terapia TRT dall'inglese Tinnitus Retraining Therapy (letteralmente terapia di riabilitazione dall'acufene) viene ampiamente praticata e, anche se non cura realmente la causa sottostante, molte persone segnalano che, grazie alla TRT, l'acufene diventa molto meno fastidioso e più facile da ignorare. La TRT richiede un periodo di 18-24 mesi per il suo pieno svolgimento e l'arricchimento sonoro può essere effettuato con generatori sonori ambientali, generatori sonori personali o con particolari apparecchi acustici in caso di perdita dell'udito anche lieve.
+</p>
+<br/>
+<h5>Novità: Programma Zen</h5>
+ZEN è un programma concepito appositamente per favorire il relax, in particolare nelle persone ipoacusiche con problemi di acufene. Questo programma genera toni armonici casuali e mai ripetitivi, che possono essere regolati in base alle esigenze e preferenze personali. Quando una persona con problemi di acufene ascolta i toni ZEN ha spesso la sensazione di percepire meno l’acufene. Ciò accade non perché lo ZEN mascheri l’acufene ma perché, al contrario, fornisce al cervello uno stimolo sonoro piacevole su cui focalizzarsi in luogo del fastidioso acufene. Tutto questo avviene perché la nostra mente è portata ad ascoltare i suoni piacevoli rispetto a quelli fastidiosi come l’acufene. Inoltre, basandosi sulla teoria dei frattali, le melodie ZEN sono simili a se stesse ma mai ripetitive: il che non permette al cervello di memorizzarli come una melodia conosciuta. Cosa che accade naturalmente con i suoni registrati.
+						
+					</div>
+					
+					<div class="side_bar">
+						<div class="content" style="margin-top:40px">
+							<h4>
+								In evidenza
+							</h4>
+							
+							<ul class="posts">
+								<li>
+									<img src="${request.static_url('cac:static/cac_imgs/test_udito.jpg')}" width="85px" alt=""/>
+									<a href="${request.application_url}/test_udito">
+										Prenpota una visita gratuita del tuo udito
+									</a><br/>
+									Rispondendo a delle semplici domande potrai capire
+									se hai problemi d'udito o meno...
+								</li>
+								<li>
+									<img src="${request.static_url('cac:static/cac_imgs/test_udito_sede.jpg')}" width="85px" alt=""/>
+									<a href="blog_post.html">
+										Test udito in sede gratuito
+									</a><br/>
+									Prenota una visita
+									gratuita del test dell'udito completamente indolore e 
+									non invasiva.
+								</li>
+								<li>
+									<img src="${request.static_url('cac:static/cac_imgs/test_udito_sede.jpg')}" width="85px" alt=""/>
+									<a href="blog_post.html">
+										Acufeni
+									</a><br/>
+									
+								</li>
+							</ul>
+						</div>
+					</div>
+					
+				</div>
+				<!-- End two column content -->
+     </metal:content>
+     <metal:slider fill-slot="slider">
+		 <div class="caption"> 
+			<h1>Dove siamo</h1> 
+		</div> 
+     </metal:slider>
+</metal:html>

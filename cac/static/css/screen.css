@@ -373,7 +373,7 @@ img.mid_align
 {
 	float: left;
 	width: 570px;
-	margin: 0 0 0 30px;
+	margin: 40px 0 0 30px;
 }
 
 .two_column .side_bar
@@ -466,15 +466,17 @@ img.mid_align
 {
 	width: 100%;
 	background: #ebebeb;
-	min-height: 200px;
-	margin-top: 30px;
+	min-height: 100px;
+	margin-top: 15px;
 }
 
 #footer .wrapper
 {
 	margin: auto;
 	width: 960px;
-	padding: 30px 0 30px 40px;
+	padding: 10px 0 10px 20px;
+	font-size: 12px;
+	text-align: center;
 }
 
 #footer .wrapper .about

@@ -35,6 +35,9 @@ from pyramid.view import view_config
 @view_config(name='apparecchi_endoauricolare',
 			 context='cac:resources.Root',
              renderer='cac:templates/apparecchi_endoauricolare.pt')
+@view_config(name='acufeni',
+             context='cac:resources.Root',
+             renderer='cac:templates/acufeni.pt')
 def home(request):
     return dict()
 

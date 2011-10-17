@@ -21,12 +21,14 @@
 					
 					<div class="side_bar">
 						<div class="content" style="margin-top:40px">
-							<h4>
-								Centro acustico certosa
-							</h4>
 							
-							<br/><br/>
+							<br/>
 							<h5>Viale Certosa 281, 20151 Milano, Italia</h5>
+							<div class="plain right">
+								<a href="${request.static_url('cac:static/cac_imgs/vetrinaCertosa.jpg')}" class="portfolio_image">
+									<img src="${request.static_url('cac:static/cac_imgs/vetrinaCertosa.jpg')}" width=280px/>
+								</a>
+							</div>
 							<p>
 							    <strong>telefono:</strong> 02-38010914<br/>
 							    <strong>fax:</strong> 02-33431315<br/>
@@ -34,6 +36,11 @@
 							</p>
 							<br/><br/>
 							<h5> Via Murat 85, Milano</h5>
+							<div class="plain right">
+								<a href="${request.static_url('cac:static/cac_imgs/vetrinaMurat.jpg')}" class="portfolio_image">
+									<img src="${request.static_url('cac:static/cac_imgs/vetrinaMurat.jpg')}" width=280px/>
+								</a>
+							</div>
 							<p>
 								<strong>telefono:</strong> 02-39521323<br/>
 							    <strong>email:</strong> <a href="mailto:info@centroacusticocertosa.com">info@centroacusticocertosa.com</a>

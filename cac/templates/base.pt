@@ -69,12 +69,17 @@
 									<ul class="submenu">
 										<li>
 											<a href="${request.application_url}/come_funziona_udito">
-												Come funiona
+												Come funziona
+											</a>
+										</li>
+										<li>
+											<a href="${request.application_url}/acufeni">
+												Acufeni
 											</a>
 										</li>
 										<li>
 											<a href="${request.application_url}/ipoacusia">
-												Ipoacussia
+												Ipoacusia
 											</a>
 										</li>
 										<li>
@@ -83,7 +88,7 @@
 											</a>
 										</li>
 										<li>
-											<a href="${request.application_url}/test_online">
+											<a href="${request.application_url}/test_udito">
 												Test online
 											</a>
 										</li>
@@ -139,7 +144,7 @@
 						</li>
 						<li>
 							<a href="${request.application_url}/where" class="${'active' if request.view_name == 'contact_us' else ''}">
-								Contattaci
+								Contatti
 							</a>
 						</li>
 					</ul>
@@ -178,10 +183,10 @@
 							</div>
 							
 							<div class="content left">
-								<h1>Tecnici specializzati</h1>
+								<h1>Dottori specializzati</h1>
 								<br/>
 								<p>
-									I nostri tecnici tecnici si differenziano per professionalità, competenza e soprattutto per la cura alla cosa più importante: il paziente.
+									I nostri Dottori Laureati in Tecniche Audioprotesiche si differenziano per professionalità, competenza e soprattutto per la cura della cosa più importante: il benessere del paziente.
 								</p>
 							</div>
 						</div>
@@ -196,12 +201,10 @@
 							</div>
 							
 							<div class="content">
-								<h1>Macchinari all'avanguardia</h1>
+								<h1>Tecnologie all'avanguardia</h1>
 								<br/>
 								<p>
-									Disponiamo di macchinari di ultima generazione non invasivi ed indolori.
-									I nostri apparecchi intrauricolari sono di dimensioni talmente ridotte che sono praticamente invisibili.
-								</p>
+									Disponiamo di strumentazione di ultima generazione. I nostri ausili uditivi sono dotati di tecnologia all’avanguardia e dimensioni talmente ridotte da essere praticamente invisibili.								</p>
 							</div>
 						</div>
 						<!-- End slider content 1 -->
@@ -218,9 +221,7 @@
 								<h1>Supporto</h1>
 								<br/>
 								<p>
-									Perchè scegliere noi? Semplice! Per il supporto e la cura al paziente che offriamo.
-									I nostri ambienti sono progettati per farvi sentire a vostro agio in qualsiasi momento.
-									Il nostro supporto tempestivo risolverà i vostri problemi anche in caso di emergenza.
+									Perché scegliere noi? Semplice! Per l’attenzione che mostriamo al  paziente, ambienti progettati per farvi sentire a vostro agio,  assistenza tempestiva e simpatia.
 								</p>
 							</div>
 						</div>
@@ -276,7 +277,7 @@
 								<li>
 									<img src="${request.static_url('cac:static/cac_imgs/test_udito.jpg')}" width="85px" alt=""/>
 									<a href="${request.application_url}/test_udito">
-										Test udito online
+										Prenpota una visita gratuita del tuo udito
 									</a><br/>
 									Rispondendo a delle semplici domande potrai capire
 									se hai problemi d'udito o meno...
@@ -289,6 +290,13 @@
 									Prenota una visita
 									gratuita del test dell'udito completamente indolore e 
 									non invasiva.
+								</li>
+								<li>
+									<img src="${request.static_url('cac:static/cac_imgs/test_udito_sede.jpg')}" width="85px" alt=""/>
+									<a href="blog_post.html">
+										Acufeni
+									</a><br/>
+									
 								</li>
 							</ul>
 						</div>
@@ -309,11 +317,10 @@
 			
 			<div class="wrapper">
 				
-				<div class="about">
-					<h5>About us</h5>
+				<div>
 					<br/>
 					<p>
-						Informazioni su centro acustico certosa
+						Copyright © 2011 Centro Acustico Certosa di Massimo Gallicano. All rights Reserved. P.I. 07424710155 - Iscritto all'albo fornitori ASL per convenzioni mutualistiche 
 					</p>
 					<br/>
 				</div>

@@ -27,7 +27,11 @@
 							</ul>
 						</div>
 						
-						<br/><br/>
+						<br/>
+							<h5>Marchi trattati</h5>
+							<div class="frame stabilize">
+								<img src="${request.static_url('cac:static/cac_imgs/coselgi.jpg')}"/>
+							</div>
 						
 						<br class="clear"/>
 						
