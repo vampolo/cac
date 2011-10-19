@@ -84,6 +84,8 @@ cac/static/cac_imgs/phonak_logo.jpg
 cac/static/cac_imgs/starkey-logo.jpg
 cac/static/cac_imgs/test_udito.jpg
 cac/static/cac_imgs/test_udito_sede.jpg
+cac/static/cac_imgs/vetrinaCertosa.jpg
+cac/static/cac_imgs/vetrinaMurat.jpg
 cac/static/css/ie.css
 cac/static/css/ie7.css
 cac/static/css/screen.css
@@ -622,6 +624,7 @@ cac/static/js/ui/development-bundle/ui/minified/jquery.ui.widget.min.js
 cac/static/js/ui/js/jquery-1.6.2.min.js
 cac/static/js/ui/js/jquery-ui-1.8.15.custom.min.js
 cac/templates/about.pt
+cac/templates/acufeni.pt
 cac/templates/apparecchi_ad_occhiale.pt
 cac/templates/apparecchi_endoauricolare.pt
 cac/templates/apparecchi_retroauricolare.pt

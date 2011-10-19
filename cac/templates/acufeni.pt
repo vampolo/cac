@@ -59,7 +59,7 @@ ZEN è un programma concepito appositamente per favorire il relax, in particolar
      </metal:content>
      <metal:slider fill-slot="slider">
 		 <div class="caption"> 
-			<h1>Dove siamo</h1> 
+			<h1>Acufeni</h1> 
 		</div> 
      </metal:slider>
 </metal:html>
