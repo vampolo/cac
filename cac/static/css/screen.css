@@ -451,7 +451,9 @@ img.mid_align
 
 .frame img
 {
-	margin: 11px 0 0 170px;
+	margin: 0 auto;
+	margin-top: 11px;
+	display: block;
 	padding:5px;
 	border-left: 1px solid #ddd;
 	border-right: 1px solid #eee;
@@ -459,6 +461,14 @@ img.mid_align
 	border-top: 1px solid #eee;
 	box-shadow: 5px 5px 5px #ccc;
 	text-align: center;
+}
+
+.frame img + p{
+	color:#333333;
+ 	font-style: italic;
+ 	font-size: smaller;
+ 	text-align:center;
+ 	text-indent: 0;
 }
 
 
@@ -1020,4 +1030,5 @@ input[type=button].silver:active, input[type=submit].silver:active
 .stabilize img {
 	width:119px;
 	margin: 11px 0 0 80px;
+	display: inline;
 }

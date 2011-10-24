@@ -277,7 +277,7 @@
 								<li>
 									<img src="${request.static_url('cac:static/cac_imgs/test_udito.jpg')}" width="85px" alt=""/>
 									<a href="${request.application_url}/test_udito">
-										Prenpota una visita gratuita del tuo udito
+										Prenota una visita gratuita del tuo udito
 									</a><br/>
 									Rispondendo a delle semplici domande potrai capire
 									se hai problemi d'udito o meno...
@@ -292,11 +292,12 @@
 									non invasiva.
 								</li>
 								<li>
-									<img src="${request.static_url('cac:static/cac_imgs/test_udito_sede.jpg')}" width="85px" alt=""/>
-									<a href="blog_post.html">
+									<img src="${request.static_url('cac:static/cac_imgs/acufeni.jpg')}" width="85px" alt=""/>
+									<a href="${request.application_url}/acufeni">
 										Acufeni
 									</a><br/>
-									
+									Avverti un continuo ronzio all'orecchio? Potresti avere un Acufene! Informati su che cosa sono gli acufeni e scopri come sconfiggerli con 
+il programma ZEN.
 								</li>
 							</ul>
 						</div>

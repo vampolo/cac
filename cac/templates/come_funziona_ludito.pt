@@ -10,6 +10,15 @@
 							<div class="frame">
 								<a href="${request.static_url('cac:static/cac_imgs/disegno_udito.jpg')}" class="portfolio_image">
 									<img src="${request.static_url('cac:static/cac_imgs/disegno_udito.jpg')}" width="320px" alt=""/>
+									<p>
+									1.Canale uditivo<br/>
+									2.Timpano<br/>
+									3.Ossicini dell'orecchio<br/>
+									4.Organo dell'equilibrio<br/>
+									5.Chiocciola<br/>
+									6.Membrana basilare con cellule cigliate<br/>
+									7.Nervo acustico<br/>
+									</p>
 								</a>
 							</div>
 							<br/>
@@ -19,15 +28,7 @@
 								L’orecchio è un organo molto complesso preposto alla fondamentale funzione dell’udito e del mantenimento dell’equilibrio; è composto da tre parti:	
 							</p>
 							<br/>
-							<ol>
-								<li>Canale uditivo</li>
-								<li>Timpano</li>
-								<li>Ossicini dell'orecchio</li>
-								<li>Organo dell'equilibrio</li>
-								<li>Chiocciola</li>
-								<li>Membrana basilare con cellule cigliate</li>
-								<li>Nervo acustico</li>
-							</ol>
+							
 							<p>
 							<br/>
 							<h5>Orecchio esterno</h5>
@@ -39,7 +40,7 @@
 							<br/> 
 							<h5>Orecchio interno</h5>
 							L’orecchio interno è attaccato all’orecchio medio, vi sono contenute le terminazioni nervose degli organi che permettono l’udito (la coclea) e l’equilibrio (i canali semicircolari).
-							Nella coclea o chiocciola hanno sede le cellule cigliate capaci di dividersi i compiti: alcune lavorano con i suoni forti, altre con i deboli. Le cellule cigliate sono responsabili di una nuova traduzione dei suoni, da vibrazioni a impulsi elettrici, che tramite le sottili fibre del nervo acustico arrivano al cervello, dove determinano la sensazione uditiva.
+							Nella <strong>coclea</strong> o <strong>chiocciola</strong> hanno sede le <strong>cellule cigliate</strong> capaci di dividersi i compiti: alcune lavorano con i suoni forti, altre con i deboli. Le cellule cigliate sono responsabili di una nuova traduzione dei suoni, da vibrazioni a impulsi elettrici, che tramite le sottili fibre del <strong>nervo acustico</strong> arrivano al <strong>cervello</strong>, dove determinano la sensazione uditiva.
 							<br/>
 							<br/>
 							<h5>Come funziona?</h5>

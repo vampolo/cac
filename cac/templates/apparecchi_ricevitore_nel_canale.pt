@@ -10,7 +10,7 @@
 							
 							<div class="frame">
 								<a href="${request.static_url('cac:static/cac_imgs/apparecchi_ricevitore_nel_canale.jpg')}" class="portfolio_image">
-									<img src="${request.static_url('cac:static/cac_imgs/apparecchi_ricevitore_nel_canale.jpg')}" width="200px" alt=""/>
+									<img src="${request.static_url('cac:static/cac_imgs/apparecchi_ricevitore_nel_canale.jpg')}" alt=""/>
 								</a>
 							</div>
 							
@@ -24,7 +24,7 @@
 								<br/>
 								Il risultato è un'ottima qualità di ascolto senza occlusione del condotto ed un'estetica eccezionale!
 								<br/>
-								Rappresentano lo standard costruttivo del futuro poiché racchiudono i principali vantaggi sia dei sistemi endoauricolari che retroauricolari e nonostante le dimensioni “micro” godono di tutti i sistemi di connettività  Wireless, per un ascolto ottimale anche della televisione e del telefono.  
+								Rappresentano lo standard costruttivo del futuro poiché <strong>racchiudono i principali vantaggi sia dei sistemi endoauricolari</strong> che <strong>retroauricolari</strong> e nonostante le dimensioni “micro” godono di tutti i sistemi di connettività <strong>Wireless</strong>, per un ascolto ottimale anche della televisione e del telefono.  
 							</p>
 							<br/>
 							<h5>Marchi trattati</h5>
