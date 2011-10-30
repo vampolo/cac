@@ -1,20 +1,36 @@
 <metal:html use-macro="base.macros['main']">
      <metal:content fill-slot="content">
-	<!-- Begin two column content -->
+		<!-- Begin two column content -->
 				<div class="two_column">
 				
 					<div class="main">
+						
 						<h4></h4>
-						
-						<div class="post_wrapper">
-							<img src="${request.static_url('cac:static/cac_imgs/contattaci.jpg')}" usemap="contattaci_map"/>
-							<map name="contattaci_map">
-								<area shape=Rect Coords=390,235,570,300 Href="${request.application_url}/contact_form">  
-							</map> 
-						</div>
-						<br/><br/>
-						
-						<br class="clear"/>
+						<br/>
+						<br/>
+						<form id="contact_form" method="post" action="mailer.php">
+							<p style="margin-top:20px">
+								<label for="your_name">Nome</label><br/>
+								<input id="your_name" name="your_name" type="text" style="width:90%"/>
+							</p>
+							<p style="margin-top:20px">
+								<label for="email">Email</label><br/>
+								<input id="email" name="email" type="text" style="width:90%"/>
+							</p>
+							<p style="margin-top:20px">
+								<label for="numero">Numero di telefono</label><br/>
+								<input id="numero" name="numero" type="text" style="width:90%"/>
+							</p>
+							<p style="margin-top:20px">
+								<label for="message">Messaggio</label><br/>
+								<textarea id="message" name="message" style="width:90%" rows="3" cols="5"></textarea>
+							</p>
+							<br/><br/>
+							<p style="margin-top:20px">
+								<input type="submit" value="Send Message"/>
+							</p>
+						</form>
+						<div id="reponse_msg"></div>
 						
 					</div>
 					
@@ -60,7 +76,7 @@ il programma ZEN.
      </metal:content>
      <metal:slider fill-slot="slider">
 		 <div class="caption"> 
-			<h1>Contatti</h1> 
+			<h1>Contattaci</h1> 
 		</div> 
      </metal:slider>
 </metal:html>

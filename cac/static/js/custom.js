@@ -252,15 +252,16 @@ $(document).ready(function(){
 		rules: {
 		    your_name: "required",
 		    email: {
-		    	required: true,
 		    	email: true
 		    },
-		    message: "required"
+		    message: "required",
+		    numero: "required",
 		},
 		messages: {
-		    your_name: "Please enter your name",
-		    email: "Please enter a valid email address",
-		    agree: "Please enter some message"
+		    your_name: "Inserisci il tuo nome",
+		    email: "Inserisci un indirizzo email valido",
+		    numero: "Inserisci un numero di telefono valido",
+		    agree: "Inserisci il messaggio"
 		}
 	});	
 	

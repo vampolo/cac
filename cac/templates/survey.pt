@@ -92,7 +92,7 @@
 						
 					</div>
 					
-					<div class="side_bar">
+										<div class="side_bar">
 						<div class="content" style="margin-top:40px">
 							<h4>
 								In evidenza
@@ -101,24 +101,33 @@
 							<ul class="posts">
 								<li>
 									<img src="${request.static_url('cac:static/cac_imgs/test_udito.jpg')}" width="85px" alt=""/>
-									<a href="test_udito">
-										Test udito online
+									<a href="${request.application_url}/test_udito">
+										Prenota una visita gratuita del tuo udito
 									</a><br/>
 									Rispondendo a delle semplici domande potrai capire
 									se hai problemi d'udito o meno...
 								</li>
 								<li>
 									<img src="${request.static_url('cac:static/cac_imgs/test_udito_sede.jpg')}" width="85px" alt=""/>
-									<a href="blog_post.html">
+									<a href="${request.application_url}/contact_us">
 										Test udito in sede gratuito
 									</a><br/>
 									Prenota una visita
 									gratuita del test dell'udito completamente indolore e 
 									non invasiva.
 								</li>
+								<li>
+									<img src="${request.static_url('cac:static/cac_imgs/acufeni.jpg')}" width="85px" alt=""/>
+									<a href="${request.application_url}/acufeni">
+										Acufeni
+									</a><br/>
+									Avverti un continuo ronzio all'orecchio? Potresti avere un Acufene! Informati su che cosa sono gli acufeni e scopri come sconfiggerli con 
+il programma ZEN.
+								</li>
 							</ul>
 						</div>
 					</div>
+
 					
 				</div>
 				<!-- End two column content -->

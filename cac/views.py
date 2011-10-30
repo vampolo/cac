@@ -38,6 +38,9 @@ from pyramid.view import view_config
 @view_config(name='acufeni',
              context='cac:resources.Root',
              renderer='cac:templates/acufeni.pt')
+@view_config(name='contact_form',
+             context='cac:resources.Root',
+             renderer='cac:templates/contact_form.pt')
 def home(request):
     return dict()
 
