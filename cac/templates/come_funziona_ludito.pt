@@ -4,7 +4,7 @@
 				<div class="two_column">
 				
 					<div class="main">
-						<h4>Informazioni</h4>
+						<h4></h4>
 						
 						<div class="post_wrapper">
 							<div class="frame">
@@ -24,28 +24,19 @@
 							<br/>
 							<p>
 								L'udito è un sistema estremamente complesso, il primo dei cinque sensi a svilupparsi nel feto e a permettere il contatto con il mondo esterno. Tutto questo grazie alle nostre orecchie!<br/>
-								<br/>
 								L’orecchio è un organo molto complesso preposto alla fondamentale funzione dell’udito e del mantenimento dell’equilibrio; è composto da tre parti:	
 							</p>
-							<br/>
-							
 							<p>
-							<br/>
 							<h5>Orecchio esterno</h5>
 							L’orecchio esterno è la parte visibile (il padiglione) più il condotto uditivo esterno, un canale che arriva fino al timpano.
 							Quando i suoni arrivano alla membrana timpanica, questa li traduce in vibrazioni che vengono trasmesse all'orecchio medio.<br/>
-							<br/>
 							<h5>Orecchio medio</h5>
 							L’orecchio medio è una piccola cavità piena d’aria chiusa in corrispondenza dell’orecchio esterno dal timpano (o membrana timpanica ), contiene i cosiddetti ossicini (martello, incudine e staffa) ed è collegato con la parte posteriore del naso tramite la tuba di Eustachio, un canale del diametro circa di una matita attraverso il quale l’aria può passare dal naso all’orecchio medio e viceversa.
-							<br/> 
 							<h5>Orecchio interno</h5>
 							L’orecchio interno è attaccato all’orecchio medio, vi sono contenute le terminazioni nervose degli organi che permettono l’udito (la coclea) e l’equilibrio (i canali semicircolari).
 							Nella <strong>coclea</strong> o <strong>chiocciola</strong> hanno sede le <strong>cellule cigliate</strong> capaci di dividersi i compiti: alcune lavorano con i suoni forti, altre con i deboli. Le cellule cigliate sono responsabili di una nuova traduzione dei suoni, da vibrazioni a impulsi elettrici, che tramite le sottili fibre del <strong>nervo acustico</strong> arrivano al <strong>cervello</strong>, dove determinano la sensazione uditiva.
-							<br/>
-							<br/>
 							<h5>Come funziona?</h5>
 							L’orecchio esterno raccoglie i suoni e li trasmette alla membrana timpanica che vibra e mette in movimento gli ossicini, che trasmettono questo movimento alle fibre nervose dell’orecchio interno. Queste fibre trasformano le vibrazioni in segnale elettrico che viene inviato al cervello.<br/>
-							<br/>
 							<h5>Vuoi saperne di più?</h5>
 							Se vuoi porre delle domande più approfondite o fare un controllo gratuito dell'udito, vieni a trovarci in uno dei nostri Centri Acustici. Il nostro personale altamente qualificato è a tua disposizione.
 							</p>
@@ -57,7 +48,7 @@
 						
 					</div>
 					
-										<div class="side_bar">
+						<div class="side_bar">
 						<div class="content" style="margin-top:40px">
 							<h4>
 								In evidenza
@@ -67,27 +58,20 @@
 								<li>
 									<img src="${request.static_url('cac:static/cac_imgs/test_udito.jpg')}" width="85px" alt=""/>
 									<a href="${request.application_url}/test_udito">
-										Prenota una visita gratuita del tuo udito
+										Test udito online
 									</a><br/>
-									Rispondendo a delle semplici domande potrai capire
-									se hai problemi d'udito o meno...
 								</li>
 								<li>
 									<img src="${request.static_url('cac:static/cac_imgs/test_udito_sede.jpg')}" width="85px" alt=""/>
 									<a href="${request.application_url}/contact_us">
-										Test udito in sede gratuito
+										Prenota controllo udito gratuito in sede
 									</a><br/>
-									Prenota una visita
-									gratuita del test dell'udito completamente indolore e 
-									non invasiva.
 								</li>
 								<li>
 									<img src="${request.static_url('cac:static/cac_imgs/acufeni.jpg')}" width="85px" alt=""/>
 									<a href="${request.application_url}/acufeni">
-										Acufeni
+										Acufeni:<br/> soluzione Zen
 									</a><br/>
-									Avverti un continuo ronzio all'orecchio? Potresti avere un Acufene! Informati su che cosa sono gli acufeni e scopri come sconfiggerli con 
-il programma ZEN.
 								</li>
 							</ul>
 						</div>

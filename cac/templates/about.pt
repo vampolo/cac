@@ -4,7 +4,7 @@
 				<div class="two_column">
 				
 					<div class="main">
-						<h4>Presentazione</h4>
+						<h4></h4>
 						
 						<div class="post_wrapper">
 							<div class="frame">
@@ -19,11 +19,11 @@
 								<strong>Il Centro Acustico Certosa</strong> è gestito dal <strong>Dott. Massimo Gallicano</strong>, Dottore in Tecniche Audioprotesiche, laureato all’Università degli Studi di Padova, presso la facoltà di Medicina e Chirurgia.
 								Ciò che caratterizza l’attività del <strong>Centro Acustico Certosa</strong> è il rapporto umano che si instaura tra Paziente ed Audioprotesista, rapporto spesso trascurato nella maggior parte delle attività commerciali: non più solo ‘Pazienti’ ma Pazienti soddisfatti.
 								Questo è l’obiettivo che ancora oggi caratterizza l’attività: raggiungere la soddisfazione completa del Paziente, tenendo conto di ogni minimo aspetto dell’applicazione di un apparecchio acustico come l’ambiente in cui una persona vive, il suo stile di vita, l’ambiente lavorativo, le sue esigenze di ascolto e quelle estetiche e perché no, l’aspetto economico!
-								Il <strong>Dott. Massimo Gallicano</strong>, a dieci anni dall'apertura del <strong>Centro acustico Certosa</strong> ha deciso nel 2011 di aprire un nuovo punto di riferimento nella città di Milano, dove le persone potranno beneficiare degli stessi servizi offerti sino ad oggi.
+								A dieci anni dall'apertura del primo <strong>Centro Acustico Certosa</strong>, nell'Aprile 2011 è stato aperto un nuovo centro di riferimento nella città di Milano in Via Murat 85, dove le persone potranno beneficiare degli stessi servizi offerti sino ad oggi.
 								<br/>
 								Il nuovo studio è gestito dal <strong>Dott. Mattia Gallicano</strong>, Dottore in <strong>Tecniche Audioprotesiche</strong>, laureato all’Università degli Studi di Milano, presso la facoltà di Medicina e Chirurgia.
 								<br/>
-								Completano lo staff, Simona e Cinzia, punto di riferimento per tutti coloro che necessitano chiarimenti sulle procedure burocratiche, tipo pratiche ASL etc.. 
+								Completano lo staff, Simona e Caterina, punto di riferimento per tutti coloro che necessitano chiarimenti sulle procedure burocratiche, tipo pratiche ASL etc.. 
 							</p>
 						</div>
 						
@@ -33,7 +33,7 @@
 						
 					</div>
 					
-										<div class="side_bar">
+					<div class="side_bar">
 						<div class="content" style="margin-top:40px">
 							<h4>
 								In evidenza
@@ -43,27 +43,20 @@
 								<li>
 									<img src="${request.static_url('cac:static/cac_imgs/test_udito.jpg')}" width="85px" alt=""/>
 									<a href="${request.application_url}/test_udito">
-										Prenota una visita gratuita del tuo udito
+										Test udito online
 									</a><br/>
-									Rispondendo a delle semplici domande potrai capire
-									se hai problemi d'udito o meno...
 								</li>
 								<li>
 									<img src="${request.static_url('cac:static/cac_imgs/test_udito_sede.jpg')}" width="85px" alt=""/>
 									<a href="${request.application_url}/contact_us">
-										Test udito in sede gratuito
+										Prenota controllo udito gratuito in sede
 									</a><br/>
-									Prenota una visita
-									gratuita del test dell'udito completamente indolore e 
-									non invasiva.
 								</li>
 								<li>
 									<img src="${request.static_url('cac:static/cac_imgs/acufeni.jpg')}" width="85px" alt=""/>
 									<a href="${request.application_url}/acufeni">
-										Acufeni
+										Acufeni:<br/> soluzione Zen
 									</a><br/>
-									Avverti un continuo ronzio all'orecchio? Potresti avere un Acufene! Informati su che cosa sono gli acufeni e scopri come sconfiggerli con 
-il programma ZEN.
 								</li>
 							</ul>
 						</div>

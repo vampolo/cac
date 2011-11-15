@@ -4,7 +4,7 @@
 				<div class="two_column">
 				
 					<div class="main">
-						<h4>Informazioni</h4>
+						<h4></h4>
 						
 						<div class="post_wrapper">
 							<p>
@@ -78,8 +78,7 @@
 						</form>
 						<div style="display:None;" id="dialog" title="Prenota una visita gratuita!">
 							<p>Il test online suggerisce che effettui un controllo gratuito dell'udito.<br/>
-							Non preoccuparti! è un test totalmente indolore!<br/>
-							Chiamaci e prenota il tuo appuntamento allo 02-38010914 o invia una <a href="mailto:info@centroacusticocertosa.com">mail</a></p>
+							Chiami per fissare un appuntamento allo 02-38010914 o invii una <a href="mailto:info@centroacusticocertosa.com">mail</a></p>
 						</div>
 						<div style="display:None;" id="dialog-error" title="Campi incompleti">
 							<p>Devi prima rispondere a tutte le domande per avere il risultato del test!</p>
@@ -92,7 +91,7 @@
 						
 					</div>
 					
-										<div class="side_bar">
+					<div class="side_bar">
 						<div class="content" style="margin-top:40px">
 							<h4>
 								In evidenza
@@ -102,32 +101,24 @@
 								<li>
 									<img src="${request.static_url('cac:static/cac_imgs/test_udito.jpg')}" width="85px" alt=""/>
 									<a href="${request.application_url}/test_udito">
-										Prenota una visita gratuita del tuo udito
+										Test udito online
 									</a><br/>
-									Rispondendo a delle semplici domande potrai capire
-									se hai problemi d'udito o meno...
 								</li>
 								<li>
 									<img src="${request.static_url('cac:static/cac_imgs/test_udito_sede.jpg')}" width="85px" alt=""/>
 									<a href="${request.application_url}/contact_us">
-										Test udito in sede gratuito
+										Prenota controllo udito gratuito in sede
 									</a><br/>
-									Prenota una visita
-									gratuita del test dell'udito completamente indolore e 
-									non invasiva.
 								</li>
 								<li>
 									<img src="${request.static_url('cac:static/cac_imgs/acufeni.jpg')}" width="85px" alt=""/>
 									<a href="${request.application_url}/acufeni">
-										Acufeni
+										Acufeni:<br/> soluzione Zen
 									</a><br/>
-									Avverti un continuo ronzio all'orecchio? Potresti avere un Acufene! Informati su che cosa sono gli acufeni e scopri come sconfiggerli con 
-il programma ZEN.
 								</li>
 							</ul>
 						</div>
 					</div>
-
 					
 				</div>
 				<!-- End two column content -->

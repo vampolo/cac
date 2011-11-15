@@ -4,36 +4,25 @@
 				<div class="two_column">
 				
 					<div class="main">
-						<h4>Cosa offriamo</h4>
+						<h4></h4>
 						
 						<div class="post_wrapper">
 							<br/>
 							<p>
-								Se vieni al Centro Acustico Certosa tutto ti conviene!
-								<br/>
-								<br/>
 								<h5>Ha dubbi sulla funzionalità dell’apparecchio?</h5>
-								Nessun problema!
-								<br/>
 								Al Centro Acustico Certosa troverà sicura professionalità e cortesia. Troverà personale altamente qualificato e disponibile per risolvere qualsiasi suo dubbio o curiosità in merito alle sue esigenze.
 								Inoltre ha la possibilità di provare la soluzione uditiva pensata per lei dai nostri Dottori, senza nessun impegno di acquisto!
 								<br/>
 								<br/>
 								<h5>Problemi con la pratica ASL per ottenere l’apparecchio acustico?</h5>
-								Nessun problema!
-								<br/>
-								Si rivolga ad uno dei Centri Acustici Certosa per avere chiarimenti e troverà personale sempre pronto a seguirla e ad aiutarla nello svolgimento della pratica ASL. Cercheremo insieme la soluzione più adatta alle sue esigenze occupandoci noi della parte burocratica!
+								Si rivolga al Centro Acustico Certosa per avere chiarimenti e troverà personale sempre pronto a seguirla e ad aiutarla nello svolgimento della pratica ASL. Cercheremo insieme la soluzione più adatta alle sue esigenze occupandoci noi della parte burocratica!
 								<br/>
 								<br/>
-								<h5>Ha problemi di deambulazione?</h5>
-								Nessun problema!
-								<br/>
+								<h5>Ha problemi di a recarsi al Centro Acustico Certosa?</h5>
 								Il nostro personale lavora anche a domicilio, per prendersi cura anche di chi ha difficoltà a muoversi da casa. Potrà così ricevere un ottima assistenza e la soluzione più adatta a lei, proprio a casa sua! 
 								<br/>
 								<br/>
 								<h5>E per quanto riguarda il pagamento?</h5>
-								Nessun problema!
-								<br/>
 								Il Centro Acustico Certosa le permette di scegliere le modalità di pagamento più adatte alle sue esigenze! Potrà, infatti, acquistare le sue soluzioni acustiche con pagamenti rateali fatti su misura per lei, secondo le sue richieste!
 							</p>
 						</div>
@@ -44,7 +33,7 @@
 						
 					</div>
 					
-										<div class="side_bar">
+						<div class="side_bar">
 						<div class="content" style="margin-top:40px">
 							<h4>
 								In evidenza
@@ -54,27 +43,20 @@
 								<li>
 									<img src="${request.static_url('cac:static/cac_imgs/test_udito.jpg')}" width="85px" alt=""/>
 									<a href="${request.application_url}/test_udito">
-										Prenota una visita gratuita del tuo udito
+										Test udito online
 									</a><br/>
-									Rispondendo a delle semplici domande potrai capire
-									se hai problemi d'udito o meno...
 								</li>
 								<li>
 									<img src="${request.static_url('cac:static/cac_imgs/test_udito_sede.jpg')}" width="85px" alt=""/>
 									<a href="${request.application_url}/contact_us">
-										Test udito in sede gratuito
+										Prenota controllo udito gratuito in sede
 									</a><br/>
-									Prenota una visita
-									gratuita del test dell'udito completamente indolore e 
-									non invasiva.
 								</li>
 								<li>
 									<img src="${request.static_url('cac:static/cac_imgs/acufeni.jpg')}" width="85px" alt=""/>
 									<a href="${request.application_url}/acufeni">
-										Acufeni
+										Acufeni:<br/> soluzione Zen
 									</a><br/>
-									Avverti un continuo ronzio all'orecchio? Potresti avere un Acufene! Informati su che cosa sono gli acufeni e scopri come sconfiggerli con 
-il programma ZEN.
 								</li>
 							</ul>
 						</div>
